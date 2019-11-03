@@ -1,0 +1,8 @@
+D:\Source\MH.DesignPatterns\MH.SimpleFactory\bin\Debug\netstandard2.0\MH.SimpleFactory.deps.json
+D:\Source\MH.DesignPatterns\MH.SimpleFactory\bin\Debug\netstandard2.0\MH.SimpleFactory.dll
+D:\Source\MH.DesignPatterns\MH.SimpleFactory\bin\Debug\netstandard2.0\MH.SimpleFactory.pdb
+D:\Source\MH.DesignPatterns\MH.SimpleFactory\obj\Debug\netstandard2.0\MH.SimpleFactory.csprojAssemblyReference.cache
+D:\Source\MH.DesignPatterns\MH.SimpleFactory\obj\Debug\netstandard2.0\MH.SimpleFactory.AssemblyInfoInputs.cache
+D:\Source\MH.DesignPatterns\MH.SimpleFactory\obj\Debug\netstandard2.0\MH.SimpleFactory.AssemblyInfo.cs
+D:\Source\MH.DesignPatterns\MH.SimpleFactory\obj\Debug\netstandard2.0\MH.SimpleFactory.dll
+D:\Source\MH.DesignPatterns\MH.SimpleFactory\obj\Debug\netstandard2.0\MH.SimpleFactory.pdb

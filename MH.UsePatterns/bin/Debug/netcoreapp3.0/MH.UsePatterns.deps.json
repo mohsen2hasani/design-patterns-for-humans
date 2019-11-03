@@ -1,0 +1,69 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.0": {
+      "MH.UsePatterns/1.0.0": {
+        "dependencies": {
+          "MH.AbstractFactory": "1.0.0",
+          "MH.Builder": "1.0.0",
+          "MH.FactoryMethod": "1.0.0",
+          "MH.SimpleFactory": "1.0.0"
+        },
+        "runtime": {
+          "MH.UsePatterns.dll": {}
+        }
+      },
+      "MH.AbstractFactory/1.0.0": {
+        "runtime": {
+          "MH.AbstractFactory.dll": {}
+        }
+      },
+      "MH.Builder/1.0.0": {
+        "runtime": {
+          "MH.Builder.dll": {}
+        }
+      },
+      "MH.FactoryMethod/1.0.0": {
+        "runtime": {
+          "MH.FactoryMethod.dll": {}
+        }
+      },
+      "MH.SimpleFactory/1.0.0": {
+        "runtime": {
+          "MH.SimpleFactory.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MH.UsePatterns/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MH.AbstractFactory/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MH.Builder/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MH.FactoryMethod/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MH.SimpleFactory/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
