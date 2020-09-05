@@ -1,7 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using MH.FactoryMethod;
+﻿using MH.FactoryMethod;
+using System;
 
 namespace MH.UsePatterns
 {

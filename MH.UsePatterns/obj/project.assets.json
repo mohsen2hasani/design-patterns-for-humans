@@ -1,10 +1,10 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.0": {
+    ".NETCoreApp,Version=v3.1": {
       "MH.AbstractFactory/1.0.0": {
         "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
+        "framework": ".NETStandard,Version=v2.1",
         "compile": {
           "bin/placeholder/MH.AbstractFactory.dll": {}
         },
@@ -14,7 +14,7 @@
       },
       "MH.Builder/1.0.0": {
         "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
+        "framework": ".NETStandard,Version=v2.1",
         "compile": {
           "bin/placeholder/MH.Builder.dll": {}
         },
@@ -24,7 +24,7 @@
       },
       "MH.FactoryMethod/1.0.0": {
         "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
+        "framework": ".NETStandard,Version=v2.1",
         "compile": {
           "bin/placeholder/MH.FactoryMethod.dll": {}
         },
@@ -32,9 +32,19 @@
           "bin/placeholder/MH.FactoryMethod.dll": {}
         }
       },
+      "MH.Mediator/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "compile": {
+          "bin/placeholder/MH.Mediator.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MH.Mediator.dll": {}
+        }
+      },
       "MH.SimpleFactory/1.0.0": {
         "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
+        "framework": ".NETStandard,Version=v2.1",
         "compile": {
           "bin/placeholder/MH.SimpleFactory.dll": {}
         },
@@ -60,6 +70,11 @@
       "path": "../MH.FactoryMethod/MH.FactoryMethod.csproj",
       "msbuildProject": "../MH.FactoryMethod/MH.FactoryMethod.csproj"
     },
+    "MH.Mediator/1.0.0": {
+      "type": "project",
+      "path": "../MH.Mediator/MH.Mediator.csproj",
+      "msbuildProject": "../MH.Mediator/MH.Mediator.csproj"
+    },
     "MH.SimpleFactory/1.0.0": {
       "type": "project",
       "path": "../MH.SimpleFactory/MH.SimpleFactory.csproj",
@@ -67,54 +82,54 @@
     }
   },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.0": [
+    ".NETCoreApp,Version=v3.1": [
       "MH.AbstractFactory >= 1.0.0",
       "MH.Builder >= 1.0.0",
       "MH.FactoryMethod >= 1.0.0",
+      "MH.Mediator >= 1.0.0",
       "MH.SimpleFactory >= 1.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\m.hasani\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\m.hasani\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Source\\MH.DesignPatterns\\MH.UsePatterns\\MH.UsePatterns.csproj",
+      "projectUniqueName": "D:\\Source\\design-patterns-for-humans\\MH.UsePatterns\\MH.UsePatterns.csproj",
       "projectName": "MH.UsePatterns",
-      "projectPath": "D:\\Source\\MH.DesignPatterns\\MH.UsePatterns\\MH.UsePatterns.csproj",
+      "projectPath": "D:\\Source\\design-patterns-for-humans\\MH.UsePatterns\\MH.UsePatterns.csproj",
       "packagesPath": "C:\\Users\\m.hasani\\.nuget\\packages\\",
-      "outputPath": "D:\\Source\\MH.DesignPatterns\\MH.UsePatterns\\obj\\",
+      "outputPath": "D:\\Source\\design-patterns-for-humans\\MH.UsePatterns\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
         "C:\\Users\\m.hasani\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "netcoreapp3.0"
+        "netcoreapp3.1"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "netcoreapp3.0": {
+        "netcoreapp3.1": {
           "projectReferences": {
-            "D:\\Source\\MH.DesignPatterns\\MH.AbstractFactory\\MH.AbstractFactory.csproj": {
-              "projectPath": "D:\\Source\\MH.DesignPatterns\\MH.AbstractFactory\\MH.AbstractFactory.csproj"
+            "D:\\Source\\design-patterns-for-humans\\MH.AbstractFactory\\MH.AbstractFactory.csproj": {
+              "projectPath": "D:\\Source\\design-patterns-for-humans\\MH.AbstractFactory\\MH.AbstractFactory.csproj"
             },
-            "D:\\Source\\MH.DesignPatterns\\MH.Builder\\MH.Builder.csproj": {
-              "projectPath": "D:\\Source\\MH.DesignPatterns\\MH.Builder\\MH.Builder.csproj"
+            "D:\\Source\\design-patterns-for-humans\\MH.Builder\\MH.Builder.csproj": {
+              "projectPath": "D:\\Source\\design-patterns-for-humans\\MH.Builder\\MH.Builder.csproj"
             },
-            "D:\\Source\\MH.DesignPatterns\\MH.FactoryMethod\\MH.FactoryMethod.csproj": {
-              "projectPath": "D:\\Source\\MH.DesignPatterns\\MH.FactoryMethod\\MH.FactoryMethod.csproj"
+            "D:\\Source\\design-patterns-for-humans\\MH.FactoryMethod\\MH.FactoryMethod.csproj": {
+              "projectPath": "D:\\Source\\design-patterns-for-humans\\MH.FactoryMethod\\MH.FactoryMethod.csproj"
             },
-            "D:\\Source\\MH.DesignPatterns\\MH.SimpleFactory\\MH.SimpleFactory.csproj": {
-              "projectPath": "D:\\Source\\MH.DesignPatterns\\MH.SimpleFactory\\MH.SimpleFactory.csproj"
+            "D:\\Source\\design-patterns-for-humans\\MH.Mediator\\MH.Mediator.csproj": {
+              "projectPath": "D:\\Source\\design-patterns-for-humans\\MH.Mediator\\MH.Mediator.csproj"
+            },
+            "D:\\Source\\design-patterns-for-humans\\MH.SimpleFactory\\MH.SimpleFactory.csproj": {
+              "projectPath": "D:\\Source\\design-patterns-for-humans\\MH.SimpleFactory\\MH.SimpleFactory.csproj"
             }
           }
         }
@@ -126,7 +141,7 @@
       }
     },
     "frameworks": {
-      "netcoreapp3.0": {
+      "netcoreapp3.1": {
         "imports": [
           "net461",
           "net462",
@@ -142,7 +157,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
       }
     }
   }

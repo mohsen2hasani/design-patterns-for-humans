@@ -1,34 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Source\\MH.DesignPatterns\\MH.UsePatterns\\MH.UsePatterns.csproj": {}
+    "D:\\Source\\design-patterns-for-humans\\MH.UsePatterns\\MH.UsePatterns.csproj": {}
   },
   "projects": {
-    "D:\\Source\\MH.DesignPatterns\\MH.AbstractFactory\\MH.AbstractFactory.csproj": {
+    "D:\\Source\\design-patterns-for-humans\\MH.AbstractFactory\\MH.AbstractFactory.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Source\\MH.DesignPatterns\\MH.AbstractFactory\\MH.AbstractFactory.csproj",
+        "projectUniqueName": "D:\\Source\\design-patterns-for-humans\\MH.AbstractFactory\\MH.AbstractFactory.csproj",
         "projectName": "MH.AbstractFactory",
-        "projectPath": "D:\\Source\\MH.DesignPatterns\\MH.AbstractFactory\\MH.AbstractFactory.csproj",
+        "projectPath": "D:\\Source\\design-patterns-for-humans\\MH.AbstractFactory\\MH.AbstractFactory.csproj",
         "packagesPath": "C:\\Users\\m.hasani\\.nuget\\packages\\",
-        "outputPath": "D:\\Source\\MH.DesignPatterns\\MH.AbstractFactory\\obj\\",
+        "outputPath": "D:\\Source\\design-patterns-for-humans\\MH.AbstractFactory\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
           "C:\\Users\\m.hasani\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netstandard2.0"
+          "netstandard2.1"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netstandard2.0": {
+          "netstandard2.1": {
             "projectReferences": {}
           }
         },
@@ -39,15 +36,7 @@
         }
       },
       "frameworks": {
-        "netstandard2.0": {
-          "dependencies": {
-            "NETStandard.Library": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[2.0.3, )",
-              "autoReferenced": true
-            }
-          },
+        "netstandard2.1": {
           "imports": [
             "net461",
             "net462",
@@ -58,35 +47,37 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Source\\MH.DesignPatterns\\MH.Builder\\MH.Builder.csproj": {
+    "D:\\Source\\design-patterns-for-humans\\MH.Builder\\MH.Builder.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Source\\MH.DesignPatterns\\MH.Builder\\MH.Builder.csproj",
+        "projectUniqueName": "D:\\Source\\design-patterns-for-humans\\MH.Builder\\MH.Builder.csproj",
         "projectName": "MH.Builder",
-        "projectPath": "D:\\Source\\MH.DesignPatterns\\MH.Builder\\MH.Builder.csproj",
+        "projectPath": "D:\\Source\\design-patterns-for-humans\\MH.Builder\\MH.Builder.csproj",
         "packagesPath": "C:\\Users\\m.hasani\\.nuget\\packages\\",
-        "outputPath": "D:\\Source\\MH.DesignPatterns\\MH.Builder\\obj\\",
+        "outputPath": "D:\\Source\\design-patterns-for-humans\\MH.Builder\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
           "C:\\Users\\m.hasani\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netstandard2.0"
+          "netstandard2.1"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netstandard2.0": {
+          "netstandard2.1": {
             "projectReferences": {}
           }
         },
@@ -97,15 +88,7 @@
         }
       },
       "frameworks": {
-        "netstandard2.0": {
-          "dependencies": {
-            "NETStandard.Library": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[2.0.3, )",
-              "autoReferenced": true
-            }
-          },
+        "netstandard2.1": {
           "imports": [
             "net461",
             "net462",
@@ -116,35 +99,37 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Source\\MH.DesignPatterns\\MH.FactoryMethod\\MH.FactoryMethod.csproj": {
+    "D:\\Source\\design-patterns-for-humans\\MH.FactoryMethod\\MH.FactoryMethod.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Source\\MH.DesignPatterns\\MH.FactoryMethod\\MH.FactoryMethod.csproj",
+        "projectUniqueName": "D:\\Source\\design-patterns-for-humans\\MH.FactoryMethod\\MH.FactoryMethod.csproj",
         "projectName": "MH.FactoryMethod",
-        "projectPath": "D:\\Source\\MH.DesignPatterns\\MH.FactoryMethod\\MH.FactoryMethod.csproj",
+        "projectPath": "D:\\Source\\design-patterns-for-humans\\MH.FactoryMethod\\MH.FactoryMethod.csproj",
         "packagesPath": "C:\\Users\\m.hasani\\.nuget\\packages\\",
-        "outputPath": "D:\\Source\\MH.DesignPatterns\\MH.FactoryMethod\\obj\\",
+        "outputPath": "D:\\Source\\design-patterns-for-humans\\MH.FactoryMethod\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
           "C:\\Users\\m.hasani\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netstandard2.0"
+          "netstandard2.1"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netstandard2.0": {
+          "netstandard2.1": {
             "projectReferences": {}
           }
         },
@@ -155,15 +140,7 @@
         }
       },
       "frameworks": {
-        "netstandard2.0": {
-          "dependencies": {
-            "NETStandard.Library": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[2.0.3, )",
-              "autoReferenced": true
-            }
-          },
+        "netstandard2.1": {
           "imports": [
             "net461",
             "net462",
@@ -174,35 +151,89 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Source\\MH.DesignPatterns\\MH.SimpleFactory\\MH.SimpleFactory.csproj": {
+    "D:\\Source\\design-patterns-for-humans\\MH.Mediator\\MH.Mediator.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Source\\MH.DesignPatterns\\MH.SimpleFactory\\MH.SimpleFactory.csproj",
+        "projectUniqueName": "D:\\Source\\design-patterns-for-humans\\MH.Mediator\\MH.Mediator.csproj",
+        "projectName": "MH.Mediator",
+        "projectPath": "D:\\Source\\design-patterns-for-humans\\MH.Mediator\\MH.Mediator.csproj",
+        "packagesPath": "C:\\Users\\m.hasani\\.nuget\\packages\\",
+        "outputPath": "D:\\Source\\design-patterns-for-humans\\MH.Mediator\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\m.hasani\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Source\\design-patterns-for-humans\\MH.SimpleFactory\\MH.SimpleFactory.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Source\\design-patterns-for-humans\\MH.SimpleFactory\\MH.SimpleFactory.csproj",
         "projectName": "MH.SimpleFactory",
-        "projectPath": "D:\\Source\\MH.DesignPatterns\\MH.SimpleFactory\\MH.SimpleFactory.csproj",
+        "projectPath": "D:\\Source\\design-patterns-for-humans\\MH.SimpleFactory\\MH.SimpleFactory.csproj",
         "packagesPath": "C:\\Users\\m.hasani\\.nuget\\packages\\",
-        "outputPath": "D:\\Source\\MH.DesignPatterns\\MH.SimpleFactory\\obj\\",
+        "outputPath": "D:\\Source\\design-patterns-for-humans\\MH.SimpleFactory\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
           "C:\\Users\\m.hasani\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netstandard2.0"
+          "netstandard2.1"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netstandard2.0": {
+          "netstandard2.1": {
             "projectReferences": {}
           }
         },
@@ -213,15 +244,7 @@
         }
       },
       "frameworks": {
-        "netstandard2.0": {
-          "dependencies": {
-            "NETStandard.Library": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[2.0.3, )",
-              "autoReferenced": true
-            }
-          },
+        "netstandard2.1": {
           "imports": [
             "net461",
             "net462",
@@ -232,47 +255,52 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Source\\MH.DesignPatterns\\MH.UsePatterns\\MH.UsePatterns.csproj": {
+    "D:\\Source\\design-patterns-for-humans\\MH.UsePatterns\\MH.UsePatterns.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Source\\MH.DesignPatterns\\MH.UsePatterns\\MH.UsePatterns.csproj",
+        "projectUniqueName": "D:\\Source\\design-patterns-for-humans\\MH.UsePatterns\\MH.UsePatterns.csproj",
         "projectName": "MH.UsePatterns",
-        "projectPath": "D:\\Source\\MH.DesignPatterns\\MH.UsePatterns\\MH.UsePatterns.csproj",
+        "projectPath": "D:\\Source\\design-patterns-for-humans\\MH.UsePatterns\\MH.UsePatterns.csproj",
         "packagesPath": "C:\\Users\\m.hasani\\.nuget\\packages\\",
-        "outputPath": "D:\\Source\\MH.DesignPatterns\\MH.UsePatterns\\obj\\",
+        "outputPath": "D:\\Source\\design-patterns-for-humans\\MH.UsePatterns\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
           "C:\\Users\\m.hasani\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.0"
+          "netcoreapp3.1"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.0": {
+          "netcoreapp3.1": {
             "projectReferences": {
-              "D:\\Source\\MH.DesignPatterns\\MH.AbstractFactory\\MH.AbstractFactory.csproj": {
-                "projectPath": "D:\\Source\\MH.DesignPatterns\\MH.AbstractFactory\\MH.AbstractFactory.csproj"
+              "D:\\Source\\design-patterns-for-humans\\MH.AbstractFactory\\MH.AbstractFactory.csproj": {
+                "projectPath": "D:\\Source\\design-patterns-for-humans\\MH.AbstractFactory\\MH.AbstractFactory.csproj"
               },
-              "D:\\Source\\MH.DesignPatterns\\MH.Builder\\MH.Builder.csproj": {
-                "projectPath": "D:\\Source\\MH.DesignPatterns\\MH.Builder\\MH.Builder.csproj"
+              "D:\\Source\\design-patterns-for-humans\\MH.Builder\\MH.Builder.csproj": {
+                "projectPath": "D:\\Source\\design-patterns-for-humans\\MH.Builder\\MH.Builder.csproj"
               },
-              "D:\\Source\\MH.DesignPatterns\\MH.FactoryMethod\\MH.FactoryMethod.csproj": {
-                "projectPath": "D:\\Source\\MH.DesignPatterns\\MH.FactoryMethod\\MH.FactoryMethod.csproj"
+              "D:\\Source\\design-patterns-for-humans\\MH.FactoryMethod\\MH.FactoryMethod.csproj": {
+                "projectPath": "D:\\Source\\design-patterns-for-humans\\MH.FactoryMethod\\MH.FactoryMethod.csproj"
               },
-              "D:\\Source\\MH.DesignPatterns\\MH.SimpleFactory\\MH.SimpleFactory.csproj": {
-                "projectPath": "D:\\Source\\MH.DesignPatterns\\MH.SimpleFactory\\MH.SimpleFactory.csproj"
+              "D:\\Source\\design-patterns-for-humans\\MH.Mediator\\MH.Mediator.csproj": {
+                "projectPath": "D:\\Source\\design-patterns-for-humans\\MH.Mediator\\MH.Mediator.csproj"
+              },
+              "D:\\Source\\design-patterns-for-humans\\MH.SimpleFactory\\MH.SimpleFactory.csproj": {
+                "projectPath": "D:\\Source\\design-patterns-for-humans\\MH.SimpleFactory\\MH.SimpleFactory.csproj"
               }
             }
           }
@@ -284,7 +312,7 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.0": {
+        "netcoreapp3.1": {
           "imports": [
             "net461",
             "net462",
@@ -300,7 +328,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

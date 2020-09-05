@@ -10,6 +10,7 @@ namespace MH.UsePatterns
             FactoryMethod.Run();
             AbstractFactory.Run();
             Builder.Run();
+            Mediator.Run();
 
             Console.WriteLine(Environment.NewLine + "Press any key to exit ...");
             Console.ReadKey();
