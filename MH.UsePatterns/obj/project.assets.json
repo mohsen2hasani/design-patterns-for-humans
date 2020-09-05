@@ -22,6 +22,16 @@
           "bin/placeholder/MH.Builder.dll": {}
         }
       },
+      "MH.ChainOfResponsibility/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/MH.ChainOfResponsibility.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MH.ChainOfResponsibility.dll": {}
+        }
+      },
       "MH.Decorator/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
@@ -67,39 +77,45 @@
   "libraries": {
     "MH.AbstractFactory/1.0.0": {
       "type": "project",
-      "path": "../MH.AbstractFactory/MH.AbstractFactory.csproj",
-      "msbuildProject": "../MH.AbstractFactory/MH.AbstractFactory.csproj"
+      "path": "../Patterns/MH.AbstractFactory/MH.AbstractFactory.csproj",
+      "msbuildProject": "../Patterns/MH.AbstractFactory/MH.AbstractFactory.csproj"
     },
     "MH.Builder/1.0.0": {
       "type": "project",
-      "path": "../MH.Builder/MH.Builder.csproj",
-      "msbuildProject": "../MH.Builder/MH.Builder.csproj"
+      "path": "../Patterns/MH.Builder/MH.Builder.csproj",
+      "msbuildProject": "../Patterns/MH.Builder/MH.Builder.csproj"
+    },
+    "MH.ChainOfResponsibility/1.0.0": {
+      "type": "project",
+      "path": "../Patterns/MH.ChainOfResponsibility/MH.ChainOfResponsibility.csproj",
+      "msbuildProject": "../Patterns/MH.ChainOfResponsibility/MH.ChainOfResponsibility.csproj"
     },
     "MH.Decorator/1.0.0": {
       "type": "project",
-      "path": "../MH.Decorator/MH.Decorator.csproj",
-      "msbuildProject": "../MH.Decorator/MH.Decorator.csproj"
+      "path": "../Patterns/MH.Decorator/MH.Decorator.csproj",
+      "msbuildProject": "../Patterns/MH.Decorator/MH.Decorator.csproj"
     },
     "MH.FactoryMethod/1.0.0": {
       "type": "project",
-      "path": "../MH.FactoryMethod/MH.FactoryMethod.csproj",
-      "msbuildProject": "../MH.FactoryMethod/MH.FactoryMethod.csproj"
+      "path": "../Patterns/MH.FactoryMethod/MH.FactoryMethod.csproj",
+      "msbuildProject": "../Patterns/MH.FactoryMethod/MH.FactoryMethod.csproj"
     },
     "MH.Mediator/1.0.0": {
       "type": "project",
-      "path": "../MH.Mediator/MH.Mediator.csproj",
-      "msbuildProject": "../MH.Mediator/MH.Mediator.csproj"
+      "path": "../Patterns/MH.Mediator/MH.Mediator.csproj",
+      "msbuildProject": "../Patterns/MH.Mediator/MH.Mediator.csproj"
     },
     "MH.SimpleFactory/1.0.0": {
       "type": "project",
-      "path": "../MH.SimpleFactory/MH.SimpleFactory.csproj",
-      "msbuildProject": "../MH.SimpleFactory/MH.SimpleFactory.csproj"
+      "path": "../Patterns/MH.SimpleFactory/MH.SimpleFactory.csproj",
+      "msbuildProject": "../Patterns/MH.SimpleFactory/MH.SimpleFactory.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "MH.AbstractFactory >= 1.0.0",
       "MH.Builder >= 1.0.0",
+      "MH.ChainOfResponsibility >= 1.0.0",
       "MH.Decorator >= 1.0.0",
       "MH.FactoryMethod >= 1.0.0",
       "MH.Mediator >= 1.0.0",
@@ -132,23 +148,26 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "D:\\Source\\design-patterns-for-humans\\MH.AbstractFactory\\MH.AbstractFactory.csproj": {
-              "projectPath": "D:\\Source\\design-patterns-for-humans\\MH.AbstractFactory\\MH.AbstractFactory.csproj"
+            "D:\\Source\\design-patterns-for-humans\\Patterns\\MH.AbstractFactory\\MH.AbstractFactory.csproj": {
+              "projectPath": "D:\\Source\\design-patterns-for-humans\\Patterns\\MH.AbstractFactory\\MH.AbstractFactory.csproj"
             },
-            "D:\\Source\\design-patterns-for-humans\\MH.Builder\\MH.Builder.csproj": {
-              "projectPath": "D:\\Source\\design-patterns-for-humans\\MH.Builder\\MH.Builder.csproj"
+            "D:\\Source\\design-patterns-for-humans\\Patterns\\MH.Builder\\MH.Builder.csproj": {
+              "projectPath": "D:\\Source\\design-patterns-for-humans\\Patterns\\MH.Builder\\MH.Builder.csproj"
             },
-            "D:\\Source\\design-patterns-for-humans\\MH.Decorator\\MH.Decorator.csproj": {
-              "projectPath": "D:\\Source\\design-patterns-for-humans\\MH.Decorator\\MH.Decorator.csproj"
+            "D:\\Source\\design-patterns-for-humans\\Patterns\\MH.ChainOfResponsibility\\MH.ChainOfResponsibility.csproj": {
+              "projectPath": "D:\\Source\\design-patterns-for-humans\\Patterns\\MH.ChainOfResponsibility\\MH.ChainOfResponsibility.csproj"
             },
-            "D:\\Source\\design-patterns-for-humans\\MH.FactoryMethod\\MH.FactoryMethod.csproj": {
-              "projectPath": "D:\\Source\\design-patterns-for-humans\\MH.FactoryMethod\\MH.FactoryMethod.csproj"
+            "D:\\Source\\design-patterns-for-humans\\Patterns\\MH.Decorator\\MH.Decorator.csproj": {
+              "projectPath": "D:\\Source\\design-patterns-for-humans\\Patterns\\MH.Decorator\\MH.Decorator.csproj"
             },
-            "D:\\Source\\design-patterns-for-humans\\MH.Mediator\\MH.Mediator.csproj": {
-              "projectPath": "D:\\Source\\design-patterns-for-humans\\MH.Mediator\\MH.Mediator.csproj"
+            "D:\\Source\\design-patterns-for-humans\\Patterns\\MH.FactoryMethod\\MH.FactoryMethod.csproj": {
+              "projectPath": "D:\\Source\\design-patterns-for-humans\\Patterns\\MH.FactoryMethod\\MH.FactoryMethod.csproj"
             },
-            "D:\\Source\\design-patterns-for-humans\\MH.SimpleFactory\\MH.SimpleFactory.csproj": {
-              "projectPath": "D:\\Source\\design-patterns-for-humans\\MH.SimpleFactory\\MH.SimpleFactory.csproj"
+            "D:\\Source\\design-patterns-for-humans\\Patterns\\MH.Mediator\\MH.Mediator.csproj": {
+              "projectPath": "D:\\Source\\design-patterns-for-humans\\Patterns\\MH.Mediator\\MH.Mediator.csproj"
+            },
+            "D:\\Source\\design-patterns-for-humans\\Patterns\\MH.SimpleFactory\\MH.SimpleFactory.csproj": {
+              "projectPath": "D:\\Source\\design-patterns-for-humans\\Patterns\\MH.SimpleFactory\\MH.SimpleFactory.csproj"
             }
           }
         }

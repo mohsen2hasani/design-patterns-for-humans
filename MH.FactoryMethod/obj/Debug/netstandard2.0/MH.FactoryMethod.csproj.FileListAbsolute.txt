@@ -1,7 +1,0 @@
-D:\Source\MH.DesignPatterns\MH.FactoryMethod\bin\Debug\netstandard2.0\MH.FactoryMethod.deps.json
-D:\Source\MH.DesignPatterns\MH.FactoryMethod\bin\Debug\netstandard2.0\MH.FactoryMethod.dll
-D:\Source\MH.DesignPatterns\MH.FactoryMethod\bin\Debug\netstandard2.0\MH.FactoryMethod.pdb
-D:\Source\MH.DesignPatterns\MH.FactoryMethod\obj\Debug\netstandard2.0\MH.FactoryMethod.AssemblyInfoInputs.cache
-D:\Source\MH.DesignPatterns\MH.FactoryMethod\obj\Debug\netstandard2.0\MH.FactoryMethod.AssemblyInfo.cs
-D:\Source\MH.DesignPatterns\MH.FactoryMethod\obj\Debug\netstandard2.0\MH.FactoryMethod.dll
-D:\Source\MH.DesignPatterns\MH.FactoryMethod\obj\Debug\netstandard2.0\MH.FactoryMethod.pdb

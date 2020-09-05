@@ -1,4 +1,5 @@
 ﻿using System;
+using MH.UsePatterns.Methods;
 
 namespace MH.UsePatterns
 {
@@ -6,12 +7,14 @@ namespace MH.UsePatterns
     {
         static void Main(string[] args)
         {
-            SimpleFactory.Run();
-            FactoryMethod.Run();
-            AbstractFactory.Run();
-            Builder.Run();
-            Mediator.Run();
-            Decorator.Run();
+            SimpleFactoryTest.Run();
+            FactoryMethodTest.Run();
+            AbstractFactoryTest.Run();
+            BuilderTest.Run();
+            MediatorTest.Run();
+            DecoratorTest.Run();
+            ChainOfResponsibilityTest.Run();
+
 
             Console.WriteLine(Environment.NewLine + "Press any key to exit ...");
             Console.ReadKey();

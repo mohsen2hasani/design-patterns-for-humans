@@ -1,8 +1,0 @@
-D:\Source\MH.DesignPatterns\MH.AbstractFactory\bin\Debug\netstandard2.0\MH.AbstractFactory.deps.json
-D:\Source\MH.DesignPatterns\MH.AbstractFactory\bin\Debug\netstandard2.0\MH.AbstractFactory.dll
-D:\Source\MH.DesignPatterns\MH.AbstractFactory\bin\Debug\netstandard2.0\MH.AbstractFactory.pdb
-D:\Source\MH.DesignPatterns\MH.AbstractFactory\obj\Debug\netstandard2.0\MH.AbstractFactory.csprojAssemblyReference.cache
-D:\Source\MH.DesignPatterns\MH.AbstractFactory\obj\Debug\netstandard2.0\MH.AbstractFactory.AssemblyInfoInputs.cache
-D:\Source\MH.DesignPatterns\MH.AbstractFactory\obj\Debug\netstandard2.0\MH.AbstractFactory.AssemblyInfo.cs
-D:\Source\MH.DesignPatterns\MH.AbstractFactory\obj\Debug\netstandard2.0\MH.AbstractFactory.dll
-D:\Source\MH.DesignPatterns\MH.AbstractFactory\obj\Debug\netstandard2.0\MH.AbstractFactory.pdb

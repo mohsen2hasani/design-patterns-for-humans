@@ -1,7 +1,0 @@
-D:\Source\MH.DesignPatterns\MH.Builder\bin\Debug\netstandard2.0\MH.Builder.deps.json
-D:\Source\MH.DesignPatterns\MH.Builder\bin\Debug\netstandard2.0\MH.Builder.dll
-D:\Source\MH.DesignPatterns\MH.Builder\bin\Debug\netstandard2.0\MH.Builder.pdb
-D:\Source\MH.DesignPatterns\MH.Builder\obj\Debug\netstandard2.0\MH.Builder.AssemblyInfoInputs.cache
-D:\Source\MH.DesignPatterns\MH.Builder\obj\Debug\netstandard2.0\MH.Builder.AssemblyInfo.cs
-D:\Source\MH.DesignPatterns\MH.Builder\obj\Debug\netstandard2.0\MH.Builder.dll
-D:\Source\MH.DesignPatterns\MH.Builder\obj\Debug\netstandard2.0\MH.Builder.pdb

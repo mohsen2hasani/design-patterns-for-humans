@@ -6,12 +6,13 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\MH.AbstractFactory\MH.AbstractFactory.csproj" />
-    <ProjectReference Include="..\MH.Builder\MH.Builder.csproj" />
-    <ProjectReference Include="..\MH.Decorator\MH.Decorator.csproj" />
-    <ProjectReference Include="..\MH.FactoryMethod\MH.FactoryMethod.csproj" />
-    <ProjectReference Include="..\MH.Mediator\MH.Mediator.csproj" />
-    <ProjectReference Include="..\MH.SimpleFactory\MH.SimpleFactory.csproj" />
+    <ProjectReference Include="..\Patterns\MH.AbstractFactory\MH.AbstractFactory.csproj" />
+    <ProjectReference Include="..\Patterns\MH.Builder\MH.Builder.csproj" />
+    <ProjectReference Include="..\Patterns\MH.ChainOfResponsibility\MH.ChainOfResponsibility.csproj" />
+    <ProjectReference Include="..\Patterns\MH.Decorator\MH.Decorator.csproj" />
+    <ProjectReference Include="..\Patterns\MH.FactoryMethod\MH.FactoryMethod.csproj" />
+    <ProjectReference Include="..\Patterns\MH.Mediator\MH.Mediator.csproj" />
+    <ProjectReference Include="..\Patterns\MH.SimpleFactory\MH.SimpleFactory.csproj" />
   </ItemGroup>
 
 </Project>
