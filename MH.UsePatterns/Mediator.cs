@@ -8,6 +8,8 @@ namespace MH.UsePatterns
     {
         public static void Run()
         {
+            Console.WriteLine("=-=-=-=Mediator=-=-=-=");
+
             IAirTrafficControl mehrabadAirTrafficControl = new MehrabadAirTrafficControl();
 
             AirplaneBase airbusAirplane = new AirbusAirplane(mehrabadAirTrafficControl);
@@ -33,6 +35,8 @@ namespace MH.UsePatterns
             Console.WriteLine("----------");
 
             boeingAirplane.Send("Good luck.");
+
+            Console.WriteLine("----------------------------------" + Environment.NewLine);
         }
     }
 }

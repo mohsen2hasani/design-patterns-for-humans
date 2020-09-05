@@ -8,6 +8,7 @@
   <ItemGroup>
     <ProjectReference Include="..\MH.AbstractFactory\MH.AbstractFactory.csproj" />
     <ProjectReference Include="..\MH.Builder\MH.Builder.csproj" />
+    <ProjectReference Include="..\MH.Decorator\MH.Decorator.csproj" />
     <ProjectReference Include="..\MH.FactoryMethod\MH.FactoryMethod.csproj" />
     <ProjectReference Include="..\MH.Mediator\MH.Mediator.csproj" />
     <ProjectReference Include="..\MH.SimpleFactory\MH.SimpleFactory.csproj" />
