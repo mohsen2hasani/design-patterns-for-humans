@@ -117,8 +117,8 @@
     },
     "MH.Proxy/1.0.0": {
       "type": "project",
-      "path": "../MH.Proxy/MH.Proxy.csproj",
-      "msbuildProject": "../MH.Proxy/MH.Proxy.csproj"
+      "path": "../Patterns/MH.Proxy/MH.Proxy.csproj",
+      "msbuildProject": "../Patterns/MH.Proxy/MH.Proxy.csproj"
     },
     "MH.SimpleFactory/1.0.0": {
       "type": "project",
@@ -164,9 +164,6 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "D:\\Source\\design-patterns-for-humans\\MH.Proxy\\MH.Proxy.csproj": {
-              "projectPath": "D:\\Source\\design-patterns-for-humans\\MH.Proxy\\MH.Proxy.csproj"
-            },
             "D:\\Source\\design-patterns-for-humans\\Patterns\\MH.AbstractFactory\\MH.AbstractFactory.csproj": {
               "projectPath": "D:\\Source\\design-patterns-for-humans\\Patterns\\MH.AbstractFactory\\MH.AbstractFactory.csproj"
             },
@@ -184,6 +181,9 @@
             },
             "D:\\Source\\design-patterns-for-humans\\Patterns\\MH.Mediator\\MH.Mediator.csproj": {
               "projectPath": "D:\\Source\\design-patterns-for-humans\\Patterns\\MH.Mediator\\MH.Mediator.csproj"
+            },
+            "D:\\Source\\design-patterns-for-humans\\Patterns\\MH.Proxy\\MH.Proxy.csproj": {
+              "projectPath": "D:\\Source\\design-patterns-for-humans\\Patterns\\MH.Proxy\\MH.Proxy.csproj"
             },
             "D:\\Source\\design-patterns-for-humans\\Patterns\\MH.SimpleFactory\\MH.SimpleFactory.csproj": {
               "projectPath": "D:\\Source\\design-patterns-for-humans\\Patterns\\MH.SimpleFactory\\MH.SimpleFactory.csproj"
