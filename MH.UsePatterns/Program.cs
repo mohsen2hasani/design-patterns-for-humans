@@ -14,6 +14,7 @@ namespace MH.UsePatterns
             MediatorTest.Run();
             DecoratorTest.Run();
             ChainOfResponsibilityTest.Run();
+            ProxyTest.Run();
 
 
             Console.WriteLine(Environment.NewLine + "Press any key to exit ...");

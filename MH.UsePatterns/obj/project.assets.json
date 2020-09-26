@@ -62,6 +62,16 @@
           "bin/placeholder/MH.Mediator.dll": {}
         }
       },
+      "MH.Proxy/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/MH.Proxy.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MH.Proxy.dll": {}
+        }
+      },
       "MH.SimpleFactory/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.1",
@@ -105,6 +115,11 @@
       "path": "../Patterns/MH.Mediator/MH.Mediator.csproj",
       "msbuildProject": "../Patterns/MH.Mediator/MH.Mediator.csproj"
     },
+    "MH.Proxy/1.0.0": {
+      "type": "project",
+      "path": "../MH.Proxy/MH.Proxy.csproj",
+      "msbuildProject": "../MH.Proxy/MH.Proxy.csproj"
+    },
     "MH.SimpleFactory/1.0.0": {
       "type": "project",
       "path": "../Patterns/MH.SimpleFactory/MH.SimpleFactory.csproj",
@@ -119,6 +134,7 @@
       "MH.Decorator >= 1.0.0",
       "MH.FactoryMethod >= 1.0.0",
       "MH.Mediator >= 1.0.0",
+      "MH.Proxy >= 1.0.0",
       "MH.SimpleFactory >= 1.0.0"
     ]
   },
@@ -148,6 +164,9 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
+            "D:\\Source\\design-patterns-for-humans\\MH.Proxy\\MH.Proxy.csproj": {
+              "projectPath": "D:\\Source\\design-patterns-for-humans\\MH.Proxy\\MH.Proxy.csproj"
+            },
             "D:\\Source\\design-patterns-for-humans\\Patterns\\MH.AbstractFactory\\MH.AbstractFactory.csproj": {
               "projectPath": "D:\\Source\\design-patterns-for-humans\\Patterns\\MH.AbstractFactory\\MH.AbstractFactory.csproj"
             },
@@ -195,7 +214,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
       }
     }
   }

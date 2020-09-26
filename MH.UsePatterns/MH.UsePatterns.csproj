@@ -6,6 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\MH.Proxy\MH.Proxy.csproj" />
     <ProjectReference Include="..\Patterns\MH.AbstractFactory\MH.AbstractFactory.csproj" />
     <ProjectReference Include="..\Patterns\MH.Builder\MH.Builder.csproj" />
     <ProjectReference Include="..\Patterns\MH.ChainOfResponsibility\MH.ChainOfResponsibility.csproj" />
