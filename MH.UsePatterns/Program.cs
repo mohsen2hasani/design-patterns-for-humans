@@ -7,14 +7,14 @@ namespace MH.UsePatterns
     {
         static void Main(string[] args)
         {
-            //SimpleFactoryTest.Run();
-            //FactoryMethodTest.Run();
-            //AbstractFactoryTest.Run();
-            //BuilderTest.Run();
-            //MediatorTest.Run();
-            //DecoratorTest.Run();
-            //ChainOfResponsibilityTest.Run();
-            //ProxyTest.Run();
+            SimpleFactoryTest.Run();
+            FactoryMethodTest.Run();
+            AbstractFactoryTest.Run();
+            BuilderTest.Run();
+            MediatorTest.Run();
+            DecoratorTest.Run();
+            ChainOfResponsibilityTest.Run();
+            ProxyTest.Run();
             ObserverTest.Run();
 
             Console.WriteLine(Environment.NewLine + "Press any key to exit ...");
