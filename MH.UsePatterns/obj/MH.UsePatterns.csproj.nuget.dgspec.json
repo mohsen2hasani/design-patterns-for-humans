@@ -55,6 +55,9 @@
               },
               "E:\\Sources\\design-patterns-for-humans\\Patterns\\MH.SimpleFactory\\MH.SimpleFactory.csproj": {
                 "projectPath": "E:\\Sources\\design-patterns-for-humans\\Patterns\\MH.SimpleFactory\\MH.SimpleFactory.csproj"
+              },
+              "E:\\Sources\\design-patterns-for-humans\\Patterns\\MH.State\\MH.State.csproj": {
+                "projectPath": "E:\\Sources\\design-patterns-for-humans\\Patterns\\MH.State\\MH.State.csproj"
               }
             }
           }
@@ -544,6 +547,61 @@
         "projectPath": "E:\\Sources\\design-patterns-for-humans\\Patterns\\MH.SimpleFactory\\MH.SimpleFactory.csproj",
         "packagesPath": "C:\\Users\\elf19\\.nuget\\packages\\",
         "outputPath": "E:\\Sources\\design-patterns-for-humans\\Patterns\\MH.SimpleFactory\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\elf19\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://nuget.mparsict.com/nuget": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Sources\\design-patterns-for-humans\\Patterns\\MH.State\\MH.State.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Sources\\design-patterns-for-humans\\Patterns\\MH.State\\MH.State.csproj",
+        "projectName": "MH.State",
+        "projectPath": "E:\\Sources\\design-patterns-for-humans\\Patterns\\MH.State\\MH.State.csproj",
+        "packagesPath": "C:\\Users\\elf19\\.nuget\\packages\\",
+        "outputPath": "E:\\Sources\\design-patterns-for-humans\\Patterns\\MH.State\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\elf19\\AppData\\Roaming\\NuGet\\NuGet.Config",

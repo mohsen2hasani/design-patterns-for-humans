@@ -16,6 +16,8 @@ namespace MH.UsePatterns
             ChainOfResponsibilityTest.Run();
             ProxyTest.Run();
             ObserverTest.Run();
+            StateTest.Run();
+
 
             Console.WriteLine(Environment.NewLine + "Press any key to exit ...");
             Console.ReadKey();
