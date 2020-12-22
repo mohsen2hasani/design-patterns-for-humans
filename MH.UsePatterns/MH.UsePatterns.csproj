@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
@@ -12,6 +12,7 @@
     <ProjectReference Include="..\Patterns\MH.Decorator\MH.Decorator.csproj" />
     <ProjectReference Include="..\Patterns\MH.FactoryMethod\MH.FactoryMethod.csproj" />
     <ProjectReference Include="..\Patterns\MH.Mediator\MH.Mediator.csproj" />
+    <ProjectReference Include="..\Patterns\MH.Observer\MH.Observer.csproj" />
     <ProjectReference Include="..\Patterns\MH.Proxy\MH.Proxy.csproj" />
     <ProjectReference Include="..\Patterns\MH.SimpleFactory\MH.SimpleFactory.csproj" />
   </ItemGroup>

@@ -23,6 +23,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MH.SimpleFactory", "Pattern
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MH.Proxy", "Patterns\MH.Proxy\MH.Proxy.csproj", "{20B5EB5E-D891-4ED2-AF69-0B237B02C1FF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MH.Observer", "Patterns\MH.Observer\MH.Observer.csproj", "{2665674D-794D-4470-B78A-86B5A86129FC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -65,6 +67,10 @@ Global
 		{20B5EB5E-D891-4ED2-AF69-0B237B02C1FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{20B5EB5E-D891-4ED2-AF69-0B237B02C1FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{20B5EB5E-D891-4ED2-AF69-0B237B02C1FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2665674D-794D-4470-B78A-86B5A86129FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2665674D-794D-4470-B78A-86B5A86129FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2665674D-794D-4470-B78A-86B5A86129FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2665674D-794D-4470-B78A-86B5A86129FC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -78,6 +84,7 @@ Global
 		{11C194AF-7115-4E2C-A8CB-252BC426503F} = {7D944330-6CC2-47F2-8873-F987002529D1}
 		{747EE97E-B384-4F60-8607-61D34D20AFC6} = {7D944330-6CC2-47F2-8873-F987002529D1}
 		{20B5EB5E-D891-4ED2-AF69-0B237B02C1FF} = {7D944330-6CC2-47F2-8873-F987002529D1}
+		{2665674D-794D-4470-B78A-86B5A86129FC} = {7D944330-6CC2-47F2-8873-F987002529D1}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6CFAEF8C-5E50-42A2-8C00-CD3487E5BFDC}

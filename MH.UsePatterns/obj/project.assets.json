@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {
+    "net5.0": {
       "MH.AbstractFactory/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.1",
@@ -62,6 +62,16 @@
           "bin/placeholder/MH.Mediator.dll": {}
         }
       },
+      "MH.Observer/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.1",
+        "compile": {
+          "bin/placeholder/MH.Observer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MH.Observer.dll": {}
+        }
+      },
       "MH.Proxy/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
@@ -115,6 +125,11 @@
       "path": "../Patterns/MH.Mediator/MH.Mediator.csproj",
       "msbuildProject": "../Patterns/MH.Mediator/MH.Mediator.csproj"
     },
+    "MH.Observer/1.0.0": {
+      "type": "project",
+      "path": "../Patterns/MH.Observer/MH.Observer.csproj",
+      "msbuildProject": "../Patterns/MH.Observer/MH.Observer.csproj"
+    },
     "MH.Proxy/1.0.0": {
       "type": "project",
       "path": "../Patterns/MH.Proxy/MH.Proxy.csproj",
@@ -127,66 +142,72 @@
     }
   },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": [
+    "net5.0": [
       "MH.AbstractFactory >= 1.0.0",
       "MH.Builder >= 1.0.0",
       "MH.ChainOfResponsibility >= 1.0.0",
       "MH.Decorator >= 1.0.0",
       "MH.FactoryMethod >= 1.0.0",
       "MH.Mediator >= 1.0.0",
+      "MH.Observer >= 1.0.0",
       "MH.Proxy >= 1.0.0",
       "MH.SimpleFactory >= 1.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\m.hasani\\.nuget\\packages\\": {}
+    "C:\\Users\\elf19\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Source\\design-patterns-for-humans\\MH.UsePatterns\\MH.UsePatterns.csproj",
+      "projectUniqueName": "E:\\Sources\\design-patterns-for-humans\\MH.UsePatterns\\MH.UsePatterns.csproj",
       "projectName": "MH.UsePatterns",
-      "projectPath": "D:\\Source\\design-patterns-for-humans\\MH.UsePatterns\\MH.UsePatterns.csproj",
-      "packagesPath": "C:\\Users\\m.hasani\\.nuget\\packages\\",
-      "outputPath": "D:\\Source\\design-patterns-for-humans\\MH.UsePatterns\\obj\\",
+      "projectPath": "E:\\Sources\\design-patterns-for-humans\\MH.UsePatterns\\MH.UsePatterns.csproj",
+      "packagesPath": "C:\\Users\\elf19\\.nuget\\packages\\",
+      "outputPath": "E:\\Sources\\design-patterns-for-humans\\MH.UsePatterns\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\m.hasani\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\elf19\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "netcoreapp3.1"
+        "net5.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "http://nuget.mparsict.com/nuget": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "netcoreapp3.1": {
+        "net5.0": {
+          "targetAlias": "net5.0",
           "projectReferences": {
-            "D:\\Source\\design-patterns-for-humans\\Patterns\\MH.AbstractFactory\\MH.AbstractFactory.csproj": {
-              "projectPath": "D:\\Source\\design-patterns-for-humans\\Patterns\\MH.AbstractFactory\\MH.AbstractFactory.csproj"
+            "E:\\Sources\\design-patterns-for-humans\\Patterns\\MH.AbstractFactory\\MH.AbstractFactory.csproj": {
+              "projectPath": "E:\\Sources\\design-patterns-for-humans\\Patterns\\MH.AbstractFactory\\MH.AbstractFactory.csproj"
             },
-            "D:\\Source\\design-patterns-for-humans\\Patterns\\MH.Builder\\MH.Builder.csproj": {
-              "projectPath": "D:\\Source\\design-patterns-for-humans\\Patterns\\MH.Builder\\MH.Builder.csproj"
+            "E:\\Sources\\design-patterns-for-humans\\Patterns\\MH.Builder\\MH.Builder.csproj": {
+              "projectPath": "E:\\Sources\\design-patterns-for-humans\\Patterns\\MH.Builder\\MH.Builder.csproj"
             },
-            "D:\\Source\\design-patterns-for-humans\\Patterns\\MH.ChainOfResponsibility\\MH.ChainOfResponsibility.csproj": {
-              "projectPath": "D:\\Source\\design-patterns-for-humans\\Patterns\\MH.ChainOfResponsibility\\MH.ChainOfResponsibility.csproj"
+            "E:\\Sources\\design-patterns-for-humans\\Patterns\\MH.ChainOfResponsibility\\MH.ChainOfResponsibility.csproj": {
+              "projectPath": "E:\\Sources\\design-patterns-for-humans\\Patterns\\MH.ChainOfResponsibility\\MH.ChainOfResponsibility.csproj"
             },
-            "D:\\Source\\design-patterns-for-humans\\Patterns\\MH.Decorator\\MH.Decorator.csproj": {
-              "projectPath": "D:\\Source\\design-patterns-for-humans\\Patterns\\MH.Decorator\\MH.Decorator.csproj"
+            "E:\\Sources\\design-patterns-for-humans\\Patterns\\MH.Decorator\\MH.Decorator.csproj": {
+              "projectPath": "E:\\Sources\\design-patterns-for-humans\\Patterns\\MH.Decorator\\MH.Decorator.csproj"
             },
-            "D:\\Source\\design-patterns-for-humans\\Patterns\\MH.FactoryMethod\\MH.FactoryMethod.csproj": {
-              "projectPath": "D:\\Source\\design-patterns-for-humans\\Patterns\\MH.FactoryMethod\\MH.FactoryMethod.csproj"
+            "E:\\Sources\\design-patterns-for-humans\\Patterns\\MH.FactoryMethod\\MH.FactoryMethod.csproj": {
+              "projectPath": "E:\\Sources\\design-patterns-for-humans\\Patterns\\MH.FactoryMethod\\MH.FactoryMethod.csproj"
             },
-            "D:\\Source\\design-patterns-for-humans\\Patterns\\MH.Mediator\\MH.Mediator.csproj": {
-              "projectPath": "D:\\Source\\design-patterns-for-humans\\Patterns\\MH.Mediator\\MH.Mediator.csproj"
+            "E:\\Sources\\design-patterns-for-humans\\Patterns\\MH.Mediator\\MH.Mediator.csproj": {
+              "projectPath": "E:\\Sources\\design-patterns-for-humans\\Patterns\\MH.Mediator\\MH.Mediator.csproj"
             },
-            "D:\\Source\\design-patterns-for-humans\\Patterns\\MH.Proxy\\MH.Proxy.csproj": {
-              "projectPath": "D:\\Source\\design-patterns-for-humans\\Patterns\\MH.Proxy\\MH.Proxy.csproj"
+            "E:\\Sources\\design-patterns-for-humans\\Patterns\\MH.Observer\\MH.Observer.csproj": {
+              "projectPath": "E:\\Sources\\design-patterns-for-humans\\Patterns\\MH.Observer\\MH.Observer.csproj"
             },
-            "D:\\Source\\design-patterns-for-humans\\Patterns\\MH.SimpleFactory\\MH.SimpleFactory.csproj": {
-              "projectPath": "D:\\Source\\design-patterns-for-humans\\Patterns\\MH.SimpleFactory\\MH.SimpleFactory.csproj"
+            "E:\\Sources\\design-patterns-for-humans\\Patterns\\MH.Proxy\\MH.Proxy.csproj": {
+              "projectPath": "E:\\Sources\\design-patterns-for-humans\\Patterns\\MH.Proxy\\MH.Proxy.csproj"
+            },
+            "E:\\Sources\\design-patterns-for-humans\\Patterns\\MH.SimpleFactory\\MH.SimpleFactory.csproj": {
+              "projectPath": "E:\\Sources\\design-patterns-for-humans\\Patterns\\MH.SimpleFactory\\MH.SimpleFactory.csproj"
             }
           }
         }
@@ -198,7 +219,8 @@
       }
     },
     "frameworks": {
-      "netcoreapp3.1": {
+      "net5.0": {
+        "targetAlias": "net5.0",
         "imports": [
           "net461",
           "net462",
@@ -214,7 +236,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }
