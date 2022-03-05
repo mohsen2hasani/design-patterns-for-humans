@@ -1,25 +1,24 @@
 ﻿using MH.ChainOfResponsibility;
 using System;
 
-namespace MH.UsePatterns.Methods
+namespace MH.UsePatterns.Methods;
+
+public static class ChainOfResponsibilityTest
 {
-    public static class ChainOfResponsibilityTest
+    public static void Run()
     {
-        public static void Run()
-        {
-            Console.WriteLine("=-=-=-=ChainOfResponsibility=-=-=-=");
+        Console.WriteLine("=-=-=-=ChainOfResponsibility=-=-=-=");
 
-            var bank = new Bank(100);          // Bank with balance 100
-            var paypal = new Paypal(200);      // Paypal with balance 200
-            var bitcoin = new Bitcoin(300);    // Bitcoin with balance 300
+        var bank = new Bank(100);          // Bank with balance 100
+        var paypal = new Paypal(200);      // Paypal with balance 200
+        var bitcoin = new Bitcoin(300);    // Bitcoin with balance 300
 
-            bank.SetNext(paypal);
-            paypal.SetNext(bitcoin);
+        bank.SetNext(paypal);
+        paypal.SetNext(bitcoin);
 
-            // Let's try to pay using the first priority i.e. bank
-            bank.Pay(259);
+        // Let's try to pay using the first priority i.e. bank
+        bank.Pay(259);
 
-            Console.WriteLine("----------------------------------" + Environment.NewLine);
-        }
+        Console.WriteLine("----------------------------------" + Environment.NewLine);
     }
 }

@@ -1,12 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿namespace MH.SimpleFactory;
 
-namespace MH.SimpleFactory
+public interface IDoor
 {
-    public interface IDoor
-    {
-        float GetWidth();
-        float GetHeight();
-    }
+    float GetWidth();
+    float GetHeight();
 }

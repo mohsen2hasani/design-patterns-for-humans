@@ -1,12 +1,11 @@
 ﻿using System;
 
-namespace MH.State
+namespace MH.State;
+
+public class UpperCase : IWritingState
 {
-    public class UpperCase : IWritingState
+    public void Write(string words)
     {
-        public void Write(string words)
-        {
-            Console.WriteLine(words.ToUpper());
-        }
+        Console.WriteLine(words.ToUpper());
     }
 }

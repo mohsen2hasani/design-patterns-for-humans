@@ -1,10 +1,9 @@
-﻿namespace MH.FactoryMethod
+﻿namespace MH.FactoryMethod;
+
+public class DevelopmentManager : HiringManager
 {
-    public class DevelopmentManager : HiringManager
+    protected override IInterviewer MakeInterviewer()
     {
-        protected override IInterviewer MakeInterviewer()
-        {
-            return new Developer();
-        }
+        return new Developer();
     }
 }

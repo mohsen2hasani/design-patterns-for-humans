@@ -1,20 +1,19 @@
 ﻿using System;
 
-namespace MH.Observer
+namespace MH.Observer;
+
+public class JobSeeker : IObserver
 {
-    public class JobSeeker : IObserver
+    protected string Name;
+
+    public JobSeeker(string name)
     {
-        protected string name;
+        Name = name;
+    }
 
-        public JobSeeker(string name)
-        {
-            this.name = name;
-        }
-
-        public void OnJobPosted(JobPost job)
-        {
-            // Do something with the job posting
-            Console.WriteLine($"Hi {name}! New job posted: {job.getTitle()}");
-        }
+    public void OnJobPosted(JobPost job)
+    {
+        // Do something with the job posting
+        Console.WriteLine($"Hi {Name}! New job posted: {job.GetTitle()}");
     }
 }

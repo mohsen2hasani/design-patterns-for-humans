@@ -1,24 +1,23 @@
 ﻿using System.Collections.Generic;
 
-namespace MH.Observer
+namespace MH.Observer;
+
+public class EmploymentAgency
 {
-    public class EmploymentAgency
+    protected List<IObserver> Observers = new();
+
+    protected void Notify(JobPost jobPosting)
     {
-        protected List<IObserver> observers = new List<IObserver>();
+        Observers.ForEach(observer => observer.OnJobPosted(jobPosting));
+    }
 
-        protected void Notify(JobPost jobPosting)
-        {
-            observers.ForEach(observer => observer.OnJobPosted(jobPosting));
-        }
+    public void Attach(IObserver observer)
+    {
+        Observers.Add(observer);
+    }
 
-        public void Attach(IObserver observer)
-        {
-            observers.Add(observer);
-        }
-
-        public void AddJob(JobPost jobPosting)
-        {
-            Notify(jobPosting);
-        }
+    public void AddJob(JobPost jobPosting)
+    {
+        Notify(jobPosting);
     }
 }

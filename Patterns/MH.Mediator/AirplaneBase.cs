@@ -1,20 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿namespace MH.Mediator;
 
-namespace MH.Mediator
+public abstract class AirplaneBase
 {
-    public abstract class AirplaneBase
+    protected readonly IAirTrafficControl AirTrafficControl;
+
+    public AirplaneBase(IAirTrafficControl airTrafficControl)
     {
-        protected readonly IAirTrafficControl AirTrafficControl;
-
-        public AirplaneBase(IAirTrafficControl airTrafficControl)
-        {
-            AirTrafficControl = airTrafficControl;
-        }
-
-        public abstract void Send(string message);
-
-        public abstract void Notify(string message);
+        AirTrafficControl = airTrafficControl;
     }
+
+    public abstract void Send(string message);
+
+    public abstract void Notify(string message);
 }

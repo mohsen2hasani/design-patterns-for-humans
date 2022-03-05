@@ -21,11 +21,11 @@ namespace MH.ChainOfResponsibility
         {
             if (CanPay(amount))
             {
-                Console.WriteLine($"Paid {amount}, using {this.GetType().Name}");
+                Console.WriteLine($"Paid {amount}, using {GetType().Name}");
             }
             else if (Successor != null)
             {
-                Console.WriteLine($"Cannot pay using {this.GetType().Name}. Proceeding ...");
+                Console.WriteLine($"Cannot pay using {GetType().Name}. Proceeding ...");
                 Successor.Pay(amount);
             }
             else

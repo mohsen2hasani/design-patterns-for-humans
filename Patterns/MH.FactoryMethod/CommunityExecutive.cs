@@ -1,14 +1,11 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
-namespace MH.FactoryMethod
+namespace MH.FactoryMethod;
+
+public class CommunityExecutive : IInterviewer
 {
-    public class CommunityExecutive : IInterviewer
+    public void AskQuestions()
     {
-        public void AskQuestions()
-        {
-            Console.WriteLine("Asking about community building");
-        }
+        Console.WriteLine("Asking about community building");
     }
 }

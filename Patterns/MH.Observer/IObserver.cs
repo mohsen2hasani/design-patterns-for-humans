@@ -1,7 +1,6 @@
-﻿namespace MH.Observer
+﻿namespace MH.Observer;
+
+public interface IObserver
 {
-    public interface IObserver
-    {
-        void OnJobPosted(JobPost job);
-    }
+    void OnJobPosted(JobPost job);
 }

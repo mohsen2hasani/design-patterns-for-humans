@@ -2,12 +2,12 @@
 {
     public class MoreSauce : IFastFood
     {
-        IFastFood _fastFood;
+        public readonly IFastFood FastFood;
         public MoreSauce(IFastFood fastFood)
         {
-            _fastFood = fastFood;
+            FastFood = fastFood;
         }
 
-        public double Price => _fastFood.Price + 0.1;
+        public double Price => FastFood.Price + 0.1;
     }
 }

@@ -1,11 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿namespace MH.AbstractFactory;
 
-namespace MH.AbstractFactory
+public interface IDoor
 {
-    public interface IDoor
-    {
-        void GetDescription();
-    }
+    void GetDescription();
 }

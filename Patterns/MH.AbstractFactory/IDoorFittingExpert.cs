@@ -1,11 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿namespace MH.AbstractFactory;
 
-namespace MH.AbstractFactory
+public interface IDoorFittingExpert
 {
-    public interface IDoorFittingExpert
-    {
-        void GetDescription();
-    }
+    void GetDescription();
 }

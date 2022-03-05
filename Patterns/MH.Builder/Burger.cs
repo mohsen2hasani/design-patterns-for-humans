@@ -1,21 +1,20 @@
-﻿namespace MH.Builder
+﻿namespace MH.Builder;
+
+public class Burger
 {
-    public class Burger
+    protected int Size;
+
+    protected bool Cheese;
+    protected bool Pepperoni;
+    protected bool Lettuce;
+    protected bool Tomato;
+
+    public Burger(BurgerBuilder builder)
     {
-        protected int size;
-
-        protected bool cheese = false;
-        protected bool pepperoni = false;
-        protected bool lettuce = false;
-        protected bool tomato = false;
-
-        public Burger(BurgerBuilder builder)
-        {
-            this.size = builder.size;
-            this.cheese = builder.cheese;
-            this.pepperoni = builder.pepperoni;
-            this.lettuce = builder.lettuce;
-            this.tomato = builder.tomato;
-        }
+        Size = builder.Size;
+        Cheese = builder.Cheese;
+        Pepperoni = builder.Pepperoni;
+        Lettuce = builder.Lettuce;
+        Tomato = builder.Tomato;
     }
 }

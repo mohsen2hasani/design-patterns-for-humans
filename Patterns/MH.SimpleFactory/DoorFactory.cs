@@ -1,14 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿namespace MH.SimpleFactory;
 
-namespace MH.SimpleFactory
+public class DoorFactory
 {
-    public class DoorFactory
+    public static IDoor MakeDoor(float width, float height)
     {
-        public static IDoor MakeDoor(float width, float height)
-        {
-            return new WoodenDoor(width, height);
-        }
+        return new WoodenDoor(width, height);
     }
 }

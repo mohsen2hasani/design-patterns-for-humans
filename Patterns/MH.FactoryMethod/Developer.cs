@@ -1,14 +1,11 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
-namespace MH.FactoryMethod
+namespace MH.FactoryMethod;
+
+public class Developer : IInterviewer
 {
-    public class Developer : IInterviewer
+    public void AskQuestions()
     {
-        public void AskQuestions()
-        {
-            Console.WriteLine("Asking about design patterns!");
-        }
+        Console.WriteLine("Asking about design patterns!");
     }
 }

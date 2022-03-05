@@ -4,11 +4,11 @@ namespace MH.Proxy
 {
     public class SecuredDoor
     {
-        protected LabDoor _door { get; set; }
+        protected IDoor Door { get; set; }
 
         public SecuredDoor(LabDoor door)
         {
-            _door = door;
+            Door = door;
         }
         public bool Authenticate(string password)
         {
@@ -18,14 +18,14 @@ namespace MH.Proxy
         public void Open(string password)
         {
             if (Authenticate(password))
-                _door.Open();
+                Door.Open();
             else
                 Console.WriteLine("Wrong Password !");
         }
 
         public void Close()
         {
-            _door.Close();
+            Door.Close();
         }
     }
 }

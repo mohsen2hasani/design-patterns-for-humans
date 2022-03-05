@@ -1,19 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿namespace MH.AbstractFactory;
 
-namespace MH.AbstractFactory
+public class IronDoorFactory : IDoorFactory
 {
-    public class IronDoorFactory : IDoorFactory
+    public IDoor MakeDoor()
     {
-        public IDoor MakeDoor()
-        {
-            return new IronDoor();
-        }
+        return new IronDoor();
+    }
 
-        public IDoorFittingExpert MakeFittingExpert()
-        {
-            return new Welder();
-        }
+    public IDoorFittingExpert MakeFittingExpert()
+    {
+        return new Welder();
     }
 }

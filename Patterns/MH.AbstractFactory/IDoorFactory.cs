@@ -1,12 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿namespace MH.AbstractFactory;
 
-namespace MH.AbstractFactory
+public interface IDoorFactory
 {
-    public interface IDoorFactory
-    {
-        IDoor MakeDoor();
-        IDoorFittingExpert MakeFittingExpert();
-    }
+    IDoor MakeDoor();
+    IDoorFittingExpert MakeFittingExpert();
 }

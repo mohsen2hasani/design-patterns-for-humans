@@ -1,24 +1,23 @@
 ﻿using MH.Decorator;
 using System;
 
-namespace MH.UsePatterns.Methods
+namespace MH.UsePatterns.Methods;
+
+public static class DecoratorTest
 {
-    public static class DecoratorTest
+    public static void Run()
     {
-        public static void Run()
-        {
-            Console.WriteLine("=-=-=-=Decorator=-=-=-=");
+        Console.WriteLine("=-=-=-=Decorator=-=-=-=");
 
-            Pizza pizza = new Pizza();
-            Console.WriteLine($"Pizza priec: {pizza.Price}");
+        var pizza = new Pizza();
+        Console.WriteLine($"Pizza price: {pizza.Price}");
 
-            MoreCheese moreCheese = new MoreCheese(pizza);
-            Console.WriteLine($"+More cheese: {moreCheese.Price}");
+        var moreCheese = new MoreCheese(pizza);
+        Console.WriteLine($"+More cheese: {moreCheese.Price}");
 
-            MoreSauce moreSauce = new MoreSauce(moreCheese);
-            Console.WriteLine($"+More sauce: {moreSauce.Price}");
+        var moreSauce = new MoreSauce(moreCheese);
+        Console.WriteLine($"+More sauce: {moreSauce.Price}");
 
-            Console.WriteLine("----------------------------------" + Environment.NewLine);
-        }
+        Console.WriteLine("----------------------------------" + Environment.NewLine);
     }
 }

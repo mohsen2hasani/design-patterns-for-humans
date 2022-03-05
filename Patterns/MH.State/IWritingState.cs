@@ -1,7 +1,6 @@
-﻿namespace MH.State
+﻿namespace MH.State;
+
+public interface IWritingState
 {
-    public interface IWritingState
-    {
-        void Write(string words);
-    }
+    void Write(string words);
 }

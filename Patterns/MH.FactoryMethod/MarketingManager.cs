@@ -1,14 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿namespace MH.FactoryMethod;
 
-namespace MH.FactoryMethod
+public class MarketingManager : HiringManager
 {
-    public class MarketingManager : HiringManager
+    protected override IInterviewer MakeInterviewer()
     {
-        protected override IInterviewer MakeInterviewer()
-        {
-            return new CommunityExecutive();
-        }
+        return new CommunityExecutive();
     }
 }

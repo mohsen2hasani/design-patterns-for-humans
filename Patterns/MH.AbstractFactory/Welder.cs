@@ -1,14 +1,11 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
-namespace MH.AbstractFactory
+namespace MH.AbstractFactory;
+
+public class Welder : IDoorFittingExpert
 {
-    public class Welder : IDoorFittingExpert
+    public void GetDescription()
     {
-        public void GetDescription()
-        {
-            Console.WriteLine("I can only fit iron doors");
-        }
+        Console.WriteLine("I can only fit iron doors");
     }
 }

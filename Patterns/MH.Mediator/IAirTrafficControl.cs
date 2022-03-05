@@ -1,9 +1,8 @@
-﻿namespace MH.Mediator
-{
-    public interface IAirTrafficControl
-    {
-        void AddAirplanes(params AirplaneBase[] airplanes);
+﻿namespace MH.Mediator;
 
-        void SendMessage(string message, AirplaneBase messageProducerAirplane);
-    }
+public interface IAirTrafficControl
+{
+    void AddAirplanes(params AirplaneBase[] airplanes);
+
+    void SendMessage(string message, AirplaneBase messageProducerAirplane);
 }

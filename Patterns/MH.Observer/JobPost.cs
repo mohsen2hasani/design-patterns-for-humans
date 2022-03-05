@@ -1,17 +1,16 @@
-﻿namespace MH.Observer
+﻿namespace MH.Observer;
+
+public class JobPost
 {
-    public class JobPost
+    protected string Title;
+
+    public JobPost(string title)
     {
-        protected string title;
+        Title = title;
+    }
 
-        public JobPost(string title)
-        {
-            this.title = title;
-        }
-
-        public string getTitle()
-        {
-            return this.title;
-        }
+    public string GetTitle()
+    {
+        return Title;
     }
 }

@@ -1,12 +1,11 @@
 ﻿using System;
 
-namespace MH.State
+namespace MH.State;
+
+public class DefaultText : IWritingState
 {
-    public class DefaultText : IWritingState
+    public void Write(string words)
     {
-        public void Write(string words)
-        {
-            Console.WriteLine(words);
-        }
+        Console.WriteLine(words);
     }
 }

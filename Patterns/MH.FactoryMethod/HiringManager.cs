@@ -1,17 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿namespace MH.FactoryMethod;
 
-namespace MH.FactoryMethod
+public abstract class HiringManager
 {
-    public abstract class HiringManager
-    {
-        abstract protected IInterviewer MakeInterviewer();
+    protected abstract IInterviewer MakeInterviewer();
 
-        public void TakeInterview()
-        {
-            var interviewer = this.MakeInterviewer();
-            interviewer.AskQuestions();
-        }
+    public void TakeInterview()
+    {
+        var interviewer = MakeInterviewer();
+        interviewer.AskQuestions();
     }
 }

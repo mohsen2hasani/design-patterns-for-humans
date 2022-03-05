@@ -1,22 +1,21 @@
-﻿namespace MH.State
+﻿namespace MH.State;
+
+public class TextEditor
 {
-    public class TextEditor
+    protected IWritingState State;
+
+    public TextEditor(IWritingState state)
     {
-        protected IWritingState state;
+        State = state;
+    }
 
-        public TextEditor(IWritingState state)
-        {
-            this.state = state;
-        }
+    public void SetState(IWritingState state)
+    {
+        State = state;
+    }
 
-        public void SetState(IWritingState state)
-        {
-            this.state = state;
-        }
-
-        public void Type(string words)
-        {
-            state.Write(words);
-        }
+    public void Type(string words)
+    {
+        State.Write(words);
     }
 }

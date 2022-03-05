@@ -1,63 +1,66 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Sources\\design-patterns-for-humans\\MH.UsePatterns\\MH.UsePatterns.csproj": {}
+    "D:\\Mohsen\\design-patterns-for-humans\\MH.UsePatterns\\MH.UsePatterns.csproj": {}
   },
   "projects": {
-    "E:\\Sources\\design-patterns-for-humans\\MH.UsePatterns\\MH.UsePatterns.csproj": {
+    "D:\\Mohsen\\design-patterns-for-humans\\MH.UsePatterns\\MH.UsePatterns.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Sources\\design-patterns-for-humans\\MH.UsePatterns\\MH.UsePatterns.csproj",
+        "projectUniqueName": "D:\\Mohsen\\design-patterns-for-humans\\MH.UsePatterns\\MH.UsePatterns.csproj",
         "projectName": "MH.UsePatterns",
-        "projectPath": "E:\\Sources\\design-patterns-for-humans\\MH.UsePatterns\\MH.UsePatterns.csproj",
-        "packagesPath": "C:\\Users\\elf19\\.nuget\\packages\\",
-        "outputPath": "E:\\Sources\\design-patterns-for-humans\\MH.UsePatterns\\obj\\",
+        "projectPath": "D:\\Mohsen\\design-patterns-for-humans\\MH.UsePatterns\\MH.UsePatterns.csproj",
+        "packagesPath": "C:\\Users\\m.hasani\\.nuget\\packages\\",
+        "outputPath": "D:\\Mohsen\\design-patterns-for-humans\\MH.UsePatterns\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\elf19\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\m.hasani\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net5.0"
+          "net6.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "http://nuget.mparsict.com/nuget": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://git.alibaba.ir/api/v4/projects/1524/packages/nuget/index.json": {},
+          "https://git.alibaba.ir/api/v4/projects/1525/packages/nuget/index.json": {},
+          "https://git.alibaba.ir/api/v4/projects/1528/packages/nuget/index.json": {},
+          "https://nexus.indraproject.ir/repository/nuget.org-proxy/": {}
         },
         "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {
-              "E:\\Sources\\design-patterns-for-humans\\Patterns\\MH.AbstractFactory\\MH.AbstractFactory.csproj": {
-                "projectPath": "E:\\Sources\\design-patterns-for-humans\\Patterns\\MH.AbstractFactory\\MH.AbstractFactory.csproj"
+              "D:\\Mohsen\\design-patterns-for-humans\\Patterns\\MH.AbstractFactory\\MH.AbstractFactory.csproj": {
+                "projectPath": "D:\\Mohsen\\design-patterns-for-humans\\Patterns\\MH.AbstractFactory\\MH.AbstractFactory.csproj"
               },
-              "E:\\Sources\\design-patterns-for-humans\\Patterns\\MH.Builder\\MH.Builder.csproj": {
-                "projectPath": "E:\\Sources\\design-patterns-for-humans\\Patterns\\MH.Builder\\MH.Builder.csproj"
+              "D:\\Mohsen\\design-patterns-for-humans\\Patterns\\MH.Builder\\MH.Builder.csproj": {
+                "projectPath": "D:\\Mohsen\\design-patterns-for-humans\\Patterns\\MH.Builder\\MH.Builder.csproj"
               },
-              "E:\\Sources\\design-patterns-for-humans\\Patterns\\MH.ChainOfResponsibility\\MH.ChainOfResponsibility.csproj": {
-                "projectPath": "E:\\Sources\\design-patterns-for-humans\\Patterns\\MH.ChainOfResponsibility\\MH.ChainOfResponsibility.csproj"
+              "D:\\Mohsen\\design-patterns-for-humans\\Patterns\\MH.ChainOfResponsibility\\MH.ChainOfResponsibility.csproj": {
+                "projectPath": "D:\\Mohsen\\design-patterns-for-humans\\Patterns\\MH.ChainOfResponsibility\\MH.ChainOfResponsibility.csproj"
               },
-              "E:\\Sources\\design-patterns-for-humans\\Patterns\\MH.Decorator\\MH.Decorator.csproj": {
-                "projectPath": "E:\\Sources\\design-patterns-for-humans\\Patterns\\MH.Decorator\\MH.Decorator.csproj"
+              "D:\\Mohsen\\design-patterns-for-humans\\Patterns\\MH.Decorator\\MH.Decorator.csproj": {
+                "projectPath": "D:\\Mohsen\\design-patterns-for-humans\\Patterns\\MH.Decorator\\MH.Decorator.csproj"
               },
-              "E:\\Sources\\design-patterns-for-humans\\Patterns\\MH.FactoryMethod\\MH.FactoryMethod.csproj": {
-                "projectPath": "E:\\Sources\\design-patterns-for-humans\\Patterns\\MH.FactoryMethod\\MH.FactoryMethod.csproj"
+              "D:\\Mohsen\\design-patterns-for-humans\\Patterns\\MH.FactoryMethod\\MH.FactoryMethod.csproj": {
+                "projectPath": "D:\\Mohsen\\design-patterns-for-humans\\Patterns\\MH.FactoryMethod\\MH.FactoryMethod.csproj"
               },
-              "E:\\Sources\\design-patterns-for-humans\\Patterns\\MH.Mediator\\MH.Mediator.csproj": {
-                "projectPath": "E:\\Sources\\design-patterns-for-humans\\Patterns\\MH.Mediator\\MH.Mediator.csproj"
+              "D:\\Mohsen\\design-patterns-for-humans\\Patterns\\MH.Mediator\\MH.Mediator.csproj": {
+                "projectPath": "D:\\Mohsen\\design-patterns-for-humans\\Patterns\\MH.Mediator\\MH.Mediator.csproj"
               },
-              "E:\\Sources\\design-patterns-for-humans\\Patterns\\MH.Observer\\MH.Observer.csproj": {
-                "projectPath": "E:\\Sources\\design-patterns-for-humans\\Patterns\\MH.Observer\\MH.Observer.csproj"
+              "D:\\Mohsen\\design-patterns-for-humans\\Patterns\\MH.Observer\\MH.Observer.csproj": {
+                "projectPath": "D:\\Mohsen\\design-patterns-for-humans\\Patterns\\MH.Observer\\MH.Observer.csproj"
               },
-              "E:\\Sources\\design-patterns-for-humans\\Patterns\\MH.Proxy\\MH.Proxy.csproj": {
-                "projectPath": "E:\\Sources\\design-patterns-for-humans\\Patterns\\MH.Proxy\\MH.Proxy.csproj"
+              "D:\\Mohsen\\design-patterns-for-humans\\Patterns\\MH.Proxy\\MH.Proxy.csproj": {
+                "projectPath": "D:\\Mohsen\\design-patterns-for-humans\\Patterns\\MH.Proxy\\MH.Proxy.csproj"
               },
-              "E:\\Sources\\design-patterns-for-humans\\Patterns\\MH.SimpleFactory\\MH.SimpleFactory.csproj": {
-                "projectPath": "E:\\Sources\\design-patterns-for-humans\\Patterns\\MH.SimpleFactory\\MH.SimpleFactory.csproj"
+              "D:\\Mohsen\\design-patterns-for-humans\\Patterns\\MH.SimpleFactory\\MH.SimpleFactory.csproj": {
+                "projectPath": "D:\\Mohsen\\design-patterns-for-humans\\Patterns\\MH.SimpleFactory\\MH.SimpleFactory.csproj"
               },
-              "E:\\Sources\\design-patterns-for-humans\\Patterns\\MH.State\\MH.State.csproj": {
-                "projectPath": "E:\\Sources\\design-patterns-for-humans\\Patterns\\MH.State\\MH.State.csproj"
+              "D:\\Mohsen\\design-patterns-for-humans\\Patterns\\MH.State\\MH.State.csproj": {
+                "projectPath": "D:\\Mohsen\\design-patterns-for-humans\\Patterns\\MH.State\\MH.State.csproj"
               }
             }
           }
@@ -69,8 +72,8 @@
         }
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "imports": [
             "net461",
             "net462",
@@ -86,34 +89,37 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\Sources\\design-patterns-for-humans\\Patterns\\MH.AbstractFactory\\MH.AbstractFactory.csproj": {
+    "D:\\Mohsen\\design-patterns-for-humans\\Patterns\\MH.AbstractFactory\\MH.AbstractFactory.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Sources\\design-patterns-for-humans\\Patterns\\MH.AbstractFactory\\MH.AbstractFactory.csproj",
+        "projectUniqueName": "D:\\Mohsen\\design-patterns-for-humans\\Patterns\\MH.AbstractFactory\\MH.AbstractFactory.csproj",
         "projectName": "MH.AbstractFactory",
-        "projectPath": "E:\\Sources\\design-patterns-for-humans\\Patterns\\MH.AbstractFactory\\MH.AbstractFactory.csproj",
-        "packagesPath": "C:\\Users\\elf19\\.nuget\\packages\\",
-        "outputPath": "E:\\Sources\\design-patterns-for-humans\\Patterns\\MH.AbstractFactory\\obj\\",
+        "projectPath": "D:\\Mohsen\\design-patterns-for-humans\\Patterns\\MH.AbstractFactory\\MH.AbstractFactory.csproj",
+        "packagesPath": "C:\\Users\\m.hasani\\.nuget\\packages\\",
+        "outputPath": "D:\\Mohsen\\design-patterns-for-humans\\Patterns\\MH.AbstractFactory\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\elf19\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\m.hasani\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netstandard2.1"
+          "net6.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "http://nuget.mparsict.com/nuget": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://git.alibaba.ir/api/v4/projects/1524/packages/nuget/index.json": {},
+          "https://git.alibaba.ir/api/v4/projects/1525/packages/nuget/index.json": {},
+          "https://git.alibaba.ir/api/v4/projects/1528/packages/nuget/index.json": {},
+          "https://nexus.indraproject.ir/repository/nuget.org-proxy/": {}
         },
         "frameworks": {
-          "netstandard2.1": {
-            "targetAlias": "netstandard2.1",
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {}
           }
         },
@@ -124,8 +130,8 @@
         }
       },
       "frameworks": {
-        "netstandard2.1": {
-          "targetAlias": "netstandard2.1",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "imports": [
             "net461",
             "net462",
@@ -137,38 +143,41 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "NETStandard.Library": {
+            "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\Sources\\design-patterns-for-humans\\Patterns\\MH.Builder\\MH.Builder.csproj": {
+    "D:\\Mohsen\\design-patterns-for-humans\\Patterns\\MH.Builder\\MH.Builder.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Sources\\design-patterns-for-humans\\Patterns\\MH.Builder\\MH.Builder.csproj",
+        "projectUniqueName": "D:\\Mohsen\\design-patterns-for-humans\\Patterns\\MH.Builder\\MH.Builder.csproj",
         "projectName": "MH.Builder",
-        "projectPath": "E:\\Sources\\design-patterns-for-humans\\Patterns\\MH.Builder\\MH.Builder.csproj",
-        "packagesPath": "C:\\Users\\elf19\\.nuget\\packages\\",
-        "outputPath": "E:\\Sources\\design-patterns-for-humans\\Patterns\\MH.Builder\\obj\\",
+        "projectPath": "D:\\Mohsen\\design-patterns-for-humans\\Patterns\\MH.Builder\\MH.Builder.csproj",
+        "packagesPath": "C:\\Users\\m.hasani\\.nuget\\packages\\",
+        "outputPath": "D:\\Mohsen\\design-patterns-for-humans\\Patterns\\MH.Builder\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\elf19\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\m.hasani\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netstandard2.1"
+          "net6.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "http://nuget.mparsict.com/nuget": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://git.alibaba.ir/api/v4/projects/1524/packages/nuget/index.json": {},
+          "https://git.alibaba.ir/api/v4/projects/1525/packages/nuget/index.json": {},
+          "https://git.alibaba.ir/api/v4/projects/1528/packages/nuget/index.json": {},
+          "https://nexus.indraproject.ir/repository/nuget.org-proxy/": {}
         },
         "frameworks": {
-          "netstandard2.1": {
-            "targetAlias": "netstandard2.1",
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {}
           }
         },
@@ -179,8 +188,8 @@
         }
       },
       "frameworks": {
-        "netstandard2.1": {
-          "targetAlias": "netstandard2.1",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "imports": [
             "net461",
             "net462",
@@ -192,25 +201,25 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "NETStandard.Library": {
+            "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\Sources\\design-patterns-for-humans\\Patterns\\MH.ChainOfResponsibility\\MH.ChainOfResponsibility.csproj": {
+    "D:\\Mohsen\\design-patterns-for-humans\\Patterns\\MH.ChainOfResponsibility\\MH.ChainOfResponsibility.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Sources\\design-patterns-for-humans\\Patterns\\MH.ChainOfResponsibility\\MH.ChainOfResponsibility.csproj",
+        "projectUniqueName": "D:\\Mohsen\\design-patterns-for-humans\\Patterns\\MH.ChainOfResponsibility\\MH.ChainOfResponsibility.csproj",
         "projectName": "MH.ChainOfResponsibility",
-        "projectPath": "E:\\Sources\\design-patterns-for-humans\\Patterns\\MH.ChainOfResponsibility\\MH.ChainOfResponsibility.csproj",
-        "packagesPath": "C:\\Users\\elf19\\.nuget\\packages\\",
-        "outputPath": "E:\\Sources\\design-patterns-for-humans\\Patterns\\MH.ChainOfResponsibility\\obj\\",
+        "projectPath": "D:\\Mohsen\\design-patterns-for-humans\\Patterns\\MH.ChainOfResponsibility\\MH.ChainOfResponsibility.csproj",
+        "packagesPath": "C:\\Users\\m.hasani\\.nuget\\packages\\",
+        "outputPath": "D:\\Mohsen\\design-patterns-for-humans\\Patterns\\MH.ChainOfResponsibility\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\elf19\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\m.hasani\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -218,8 +227,11 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "http://nuget.mparsict.com/nuget": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://git.alibaba.ir/api/v4/projects/1524/packages/nuget/index.json": {},
+          "https://git.alibaba.ir/api/v4/projects/1525/packages/nuget/index.json": {},
+          "https://git.alibaba.ir/api/v4/projects/1528/packages/nuget/index.json": {},
+          "https://nexus.indraproject.ir/repository/nuget.org-proxy/": {}
         },
         "frameworks": {
           "netstandard2.0": {
@@ -254,21 +266,21 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\Sources\\design-patterns-for-humans\\Patterns\\MH.Decorator\\MH.Decorator.csproj": {
+    "D:\\Mohsen\\design-patterns-for-humans\\Patterns\\MH.Decorator\\MH.Decorator.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Sources\\design-patterns-for-humans\\Patterns\\MH.Decorator\\MH.Decorator.csproj",
+        "projectUniqueName": "D:\\Mohsen\\design-patterns-for-humans\\Patterns\\MH.Decorator\\MH.Decorator.csproj",
         "projectName": "MH.Decorator",
-        "projectPath": "E:\\Sources\\design-patterns-for-humans\\Patterns\\MH.Decorator\\MH.Decorator.csproj",
-        "packagesPath": "C:\\Users\\elf19\\.nuget\\packages\\",
-        "outputPath": "E:\\Sources\\design-patterns-for-humans\\Patterns\\MH.Decorator\\obj\\",
+        "projectPath": "D:\\Mohsen\\design-patterns-for-humans\\Patterns\\MH.Decorator\\MH.Decorator.csproj",
+        "packagesPath": "C:\\Users\\m.hasani\\.nuget\\packages\\",
+        "outputPath": "D:\\Mohsen\\design-patterns-for-humans\\Patterns\\MH.Decorator\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\elf19\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\m.hasani\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -276,8 +288,11 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "http://nuget.mparsict.com/nuget": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://git.alibaba.ir/api/v4/projects/1524/packages/nuget/index.json": {},
+          "https://git.alibaba.ir/api/v4/projects/1525/packages/nuget/index.json": {},
+          "https://git.alibaba.ir/api/v4/projects/1528/packages/nuget/index.json": {},
+          "https://nexus.indraproject.ir/repository/nuget.org-proxy/": {}
         },
         "frameworks": {
           "netstandard2.0": {
@@ -312,34 +327,37 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\Sources\\design-patterns-for-humans\\Patterns\\MH.FactoryMethod\\MH.FactoryMethod.csproj": {
+    "D:\\Mohsen\\design-patterns-for-humans\\Patterns\\MH.FactoryMethod\\MH.FactoryMethod.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Sources\\design-patterns-for-humans\\Patterns\\MH.FactoryMethod\\MH.FactoryMethod.csproj",
+        "projectUniqueName": "D:\\Mohsen\\design-patterns-for-humans\\Patterns\\MH.FactoryMethod\\MH.FactoryMethod.csproj",
         "projectName": "MH.FactoryMethod",
-        "projectPath": "E:\\Sources\\design-patterns-for-humans\\Patterns\\MH.FactoryMethod\\MH.FactoryMethod.csproj",
-        "packagesPath": "C:\\Users\\elf19\\.nuget\\packages\\",
-        "outputPath": "E:\\Sources\\design-patterns-for-humans\\Patterns\\MH.FactoryMethod\\obj\\",
+        "projectPath": "D:\\Mohsen\\design-patterns-for-humans\\Patterns\\MH.FactoryMethod\\MH.FactoryMethod.csproj",
+        "packagesPath": "C:\\Users\\m.hasani\\.nuget\\packages\\",
+        "outputPath": "D:\\Mohsen\\design-patterns-for-humans\\Patterns\\MH.FactoryMethod\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\elf19\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\m.hasani\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netstandard2.1"
+          "net6.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "http://nuget.mparsict.com/nuget": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://git.alibaba.ir/api/v4/projects/1524/packages/nuget/index.json": {},
+          "https://git.alibaba.ir/api/v4/projects/1525/packages/nuget/index.json": {},
+          "https://git.alibaba.ir/api/v4/projects/1528/packages/nuget/index.json": {},
+          "https://nexus.indraproject.ir/repository/nuget.org-proxy/": {}
         },
         "frameworks": {
-          "netstandard2.1": {
-            "targetAlias": "netstandard2.1",
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {}
           }
         },
@@ -350,8 +368,8 @@
         }
       },
       "frameworks": {
-        "netstandard2.1": {
-          "targetAlias": "netstandard2.1",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "imports": [
             "net461",
             "net462",
@@ -363,38 +381,41 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "NETStandard.Library": {
+            "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\Sources\\design-patterns-for-humans\\Patterns\\MH.Mediator\\MH.Mediator.csproj": {
+    "D:\\Mohsen\\design-patterns-for-humans\\Patterns\\MH.Mediator\\MH.Mediator.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Sources\\design-patterns-for-humans\\Patterns\\MH.Mediator\\MH.Mediator.csproj",
+        "projectUniqueName": "D:\\Mohsen\\design-patterns-for-humans\\Patterns\\MH.Mediator\\MH.Mediator.csproj",
         "projectName": "MH.Mediator",
-        "projectPath": "E:\\Sources\\design-patterns-for-humans\\Patterns\\MH.Mediator\\MH.Mediator.csproj",
-        "packagesPath": "C:\\Users\\elf19\\.nuget\\packages\\",
-        "outputPath": "E:\\Sources\\design-patterns-for-humans\\Patterns\\MH.Mediator\\obj\\",
+        "projectPath": "D:\\Mohsen\\design-patterns-for-humans\\Patterns\\MH.Mediator\\MH.Mediator.csproj",
+        "packagesPath": "C:\\Users\\m.hasani\\.nuget\\packages\\",
+        "outputPath": "D:\\Mohsen\\design-patterns-for-humans\\Patterns\\MH.Mediator\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\elf19\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\m.hasani\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netstandard2.1"
+          "net6.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "http://nuget.mparsict.com/nuget": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://git.alibaba.ir/api/v4/projects/1524/packages/nuget/index.json": {},
+          "https://git.alibaba.ir/api/v4/projects/1525/packages/nuget/index.json": {},
+          "https://git.alibaba.ir/api/v4/projects/1528/packages/nuget/index.json": {},
+          "https://nexus.indraproject.ir/repository/nuget.org-proxy/": {}
         },
         "frameworks": {
-          "netstandard2.1": {
-            "targetAlias": "netstandard2.1",
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {}
           }
         },
@@ -405,8 +426,8 @@
         }
       },
       "frameworks": {
-        "netstandard2.1": {
-          "targetAlias": "netstandard2.1",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "imports": [
             "net461",
             "net462",
@@ -418,38 +439,41 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "NETStandard.Library": {
+            "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\Sources\\design-patterns-for-humans\\Patterns\\MH.Observer\\MH.Observer.csproj": {
+    "D:\\Mohsen\\design-patterns-for-humans\\Patterns\\MH.Observer\\MH.Observer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Sources\\design-patterns-for-humans\\Patterns\\MH.Observer\\MH.Observer.csproj",
+        "projectUniqueName": "D:\\Mohsen\\design-patterns-for-humans\\Patterns\\MH.Observer\\MH.Observer.csproj",
         "projectName": "MH.Observer",
-        "projectPath": "E:\\Sources\\design-patterns-for-humans\\Patterns\\MH.Observer\\MH.Observer.csproj",
-        "packagesPath": "C:\\Users\\elf19\\.nuget\\packages\\",
-        "outputPath": "E:\\Sources\\design-patterns-for-humans\\Patterns\\MH.Observer\\obj\\",
+        "projectPath": "D:\\Mohsen\\design-patterns-for-humans\\Patterns\\MH.Observer\\MH.Observer.csproj",
+        "packagesPath": "C:\\Users\\m.hasani\\.nuget\\packages\\",
+        "outputPath": "D:\\Mohsen\\design-patterns-for-humans\\Patterns\\MH.Observer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\elf19\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\m.hasani\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netstandard2.1"
+          "net6.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "http://nuget.mparsict.com/nuget": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://git.alibaba.ir/api/v4/projects/1524/packages/nuget/index.json": {},
+          "https://git.alibaba.ir/api/v4/projects/1525/packages/nuget/index.json": {},
+          "https://git.alibaba.ir/api/v4/projects/1528/packages/nuget/index.json": {},
+          "https://nexus.indraproject.ir/repository/nuget.org-proxy/": {}
         },
         "frameworks": {
-          "netstandard2.1": {
-            "targetAlias": "netstandard2.1",
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {}
           }
         },
@@ -460,8 +484,8 @@
         }
       },
       "frameworks": {
-        "netstandard2.1": {
-          "targetAlias": "netstandard2.1",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "imports": [
             "net461",
             "net462",
@@ -473,25 +497,25 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "NETStandard.Library": {
+            "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\Sources\\design-patterns-for-humans\\Patterns\\MH.Proxy\\MH.Proxy.csproj": {
+    "D:\\Mohsen\\design-patterns-for-humans\\Patterns\\MH.Proxy\\MH.Proxy.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Sources\\design-patterns-for-humans\\Patterns\\MH.Proxy\\MH.Proxy.csproj",
+        "projectUniqueName": "D:\\Mohsen\\design-patterns-for-humans\\Patterns\\MH.Proxy\\MH.Proxy.csproj",
         "projectName": "MH.Proxy",
-        "projectPath": "E:\\Sources\\design-patterns-for-humans\\Patterns\\MH.Proxy\\MH.Proxy.csproj",
-        "packagesPath": "C:\\Users\\elf19\\.nuget\\packages\\",
-        "outputPath": "E:\\Sources\\design-patterns-for-humans\\Patterns\\MH.Proxy\\obj\\",
+        "projectPath": "D:\\Mohsen\\design-patterns-for-humans\\Patterns\\MH.Proxy\\MH.Proxy.csproj",
+        "packagesPath": "C:\\Users\\m.hasani\\.nuget\\packages\\",
+        "outputPath": "D:\\Mohsen\\design-patterns-for-humans\\Patterns\\MH.Proxy\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\elf19\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\m.hasani\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -499,8 +523,11 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "http://nuget.mparsict.com/nuget": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://git.alibaba.ir/api/v4/projects/1524/packages/nuget/index.json": {},
+          "https://git.alibaba.ir/api/v4/projects/1525/packages/nuget/index.json": {},
+          "https://git.alibaba.ir/api/v4/projects/1528/packages/nuget/index.json": {},
+          "https://nexus.indraproject.ir/repository/nuget.org-proxy/": {}
         },
         "frameworks": {
           "netstandard2.0": {
@@ -535,34 +562,37 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\Sources\\design-patterns-for-humans\\Patterns\\MH.SimpleFactory\\MH.SimpleFactory.csproj": {
+    "D:\\Mohsen\\design-patterns-for-humans\\Patterns\\MH.SimpleFactory\\MH.SimpleFactory.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Sources\\design-patterns-for-humans\\Patterns\\MH.SimpleFactory\\MH.SimpleFactory.csproj",
+        "projectUniqueName": "D:\\Mohsen\\design-patterns-for-humans\\Patterns\\MH.SimpleFactory\\MH.SimpleFactory.csproj",
         "projectName": "MH.SimpleFactory",
-        "projectPath": "E:\\Sources\\design-patterns-for-humans\\Patterns\\MH.SimpleFactory\\MH.SimpleFactory.csproj",
-        "packagesPath": "C:\\Users\\elf19\\.nuget\\packages\\",
-        "outputPath": "E:\\Sources\\design-patterns-for-humans\\Patterns\\MH.SimpleFactory\\obj\\",
+        "projectPath": "D:\\Mohsen\\design-patterns-for-humans\\Patterns\\MH.SimpleFactory\\MH.SimpleFactory.csproj",
+        "packagesPath": "C:\\Users\\m.hasani\\.nuget\\packages\\",
+        "outputPath": "D:\\Mohsen\\design-patterns-for-humans\\Patterns\\MH.SimpleFactory\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\elf19\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\m.hasani\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netstandard2.1"
+          "net6.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "http://nuget.mparsict.com/nuget": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://git.alibaba.ir/api/v4/projects/1524/packages/nuget/index.json": {},
+          "https://git.alibaba.ir/api/v4/projects/1525/packages/nuget/index.json": {},
+          "https://git.alibaba.ir/api/v4/projects/1528/packages/nuget/index.json": {},
+          "https://nexus.indraproject.ir/repository/nuget.org-proxy/": {}
         },
         "frameworks": {
-          "netstandard2.1": {
-            "targetAlias": "netstandard2.1",
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {}
           }
         },
@@ -573,8 +603,8 @@
         }
       },
       "frameworks": {
-        "netstandard2.1": {
-          "targetAlias": "netstandard2.1",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "imports": [
             "net461",
             "net462",
@@ -586,38 +616,41 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "NETStandard.Library": {
+            "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\Sources\\design-patterns-for-humans\\Patterns\\MH.State\\MH.State.csproj": {
+    "D:\\Mohsen\\design-patterns-for-humans\\Patterns\\MH.State\\MH.State.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Sources\\design-patterns-for-humans\\Patterns\\MH.State\\MH.State.csproj",
+        "projectUniqueName": "D:\\Mohsen\\design-patterns-for-humans\\Patterns\\MH.State\\MH.State.csproj",
         "projectName": "MH.State",
-        "projectPath": "E:\\Sources\\design-patterns-for-humans\\Patterns\\MH.State\\MH.State.csproj",
-        "packagesPath": "C:\\Users\\elf19\\.nuget\\packages\\",
-        "outputPath": "E:\\Sources\\design-patterns-for-humans\\Patterns\\MH.State\\obj\\",
+        "projectPath": "D:\\Mohsen\\design-patterns-for-humans\\Patterns\\MH.State\\MH.State.csproj",
+        "packagesPath": "C:\\Users\\m.hasani\\.nuget\\packages\\",
+        "outputPath": "D:\\Mohsen\\design-patterns-for-humans\\Patterns\\MH.State\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\elf19\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\m.hasani\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netstandard2.1"
+          "net6.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "http://nuget.mparsict.com/nuget": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://git.alibaba.ir/api/v4/projects/1524/packages/nuget/index.json": {},
+          "https://git.alibaba.ir/api/v4/projects/1525/packages/nuget/index.json": {},
+          "https://git.alibaba.ir/api/v4/projects/1528/packages/nuget/index.json": {},
+          "https://nexus.indraproject.ir/repository/nuget.org-proxy/": {}
         },
         "frameworks": {
-          "netstandard2.1": {
-            "targetAlias": "netstandard2.1",
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {}
           }
         },
@@ -628,8 +661,8 @@
         }
       },
       "frameworks": {
-        "netstandard2.1": {
-          "targetAlias": "netstandard2.1",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "imports": [
             "net461",
             "net462",
@@ -641,11 +674,11 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "NETStandard.Library": {
+            "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
