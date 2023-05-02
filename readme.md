@@ -1,4 +1,7 @@
-![Design Patterns For Humans](https://cloud.githubusercontent.com/assets/11269635/23065273/1b7e5938-f515-11e6-8dd3-d0d58de6bb9a.png)
+<br>
+<p align="center">
+  <img src="./.github/banner.svg" height="150px" />
+</p>
 
 ***
 
@@ -6,12 +9,12 @@
 🎉 Ultra-simplified explanation to design patterns! 🎉
 </p>
 <p align="center">
-A topic that can easily make anyone's mind wobble. Here I try to make them stick in to your mind (and maybe mine) by explaining them in the <i>simplest</i> way possible.
+A topic that can easily make anyone's mind wobble. Here I try to make them stick in to your<br> mind (and maybe mine) by explaining them in the <i>simplest</i> way possible.
 </p>
 
 ***
 
-<sub>Check out my [blog](http://kamranahmed.info) and say "hi" on [Twitter](https://twitter.com/kamranahmedse).</sub>
+<sub>Check out my [other project](http://roadmap.sh) and say "hi" on [Twitter](https://twitter.com/kamranahmedse).</sub>
 
 Introduction
 =================
@@ -2048,28 +2051,35 @@ And then we have our client that is going to use any strategy
 ```php
 class Sorter
 {
-    protected $sorter;
+    protected $sorterSmall;
+    protected $sorterBig;
 
-    public function __construct(SortStrategy $sorter)
+    public function __construct(SortStrategy $sorterSmall, SortStrategy $sorterBig)
     {
-        $this->sorter = $sorter;
+        $this->sorterSmall = $sorterSmall;
+        $this->sorterBig = $sorterBig;
     }
 
     public function sort(array $dataset): array
     {
-        return $this->sorter->sort($dataset);
+        if (count($dataset) > 5) {
+            return $this->sorterBig->sort($dataset);
+        } else {
+            return $this->sorterSmall->sort($dataset);
+        }
     }
 }
 ```
 And it can be used as
 ```php
-$dataset = [1, 5, 4, 3, 2, 8];
+$smalldataset = [1, 3, 4, 2];
+$bigdataset = [1, 4, 3, 2, 8, 10, 5, 6, 9, 7];
 
-$sorter = new Sorter(new BubbleSortStrategy());
+$sorter = new Sorter(new BubbleSortStrategy(), new QuickSortStrategy());
+
 $sorter->sort($dataset); // Output : Sorting using bubble sort
 
-$sorter = new Sorter(new QuickSortStrategy());
-$sorter->sort($dataset); // Output : Sorting using quick sort
+$sorter->sort($bigdataset); // Output : Sorting using quick sort
 ```
 
 💢 State
@@ -2086,84 +2096,81 @@ Wikipedia says
 
 **Programmatic example**
 
-Let's take an example of text editor, it lets you change the state of text that is typed i.e. if you have selected bold, it starts writing in bold, if italic then in italics etc.
-
-First of all we have our state interface and some state implementations
+Let's take an example of a phone. First of all we have our state interface and some state implementations
 
 ```php
-interface WritingState
-{
-    public function write(string $words);
+interface PhoneState {
+    public function pickUp(): PhoneState;
+    public function hangUp(): PhoneState;
+    public function dial(): PhoneState;
 }
 
-class UpperCase implements WritingState
-{
-    public function write(string $words)
-    {
-        echo strtoupper($words);
+// states implementation
+class PhoneStateIdle implements PhoneState {
+    public function pickUp(): PhoneState {
+        return new PhoneStatePickedUp();
+    }
+    public function hangUp(): PhoneState {
+        throw new Exception("already idle");
+    }
+    public function dial(): PhoneState {
+        throw new Exception("unable to dial in idle state");
     }
 }
 
-class LowerCase implements WritingState
-{
-    public function write(string $words)
-    {
-        echo strtolower($words);
+class PhoneStatePickedUp implements PhoneState {
+    public function pickUp(): PhoneState {
+        throw new Exception("already picked up");
+    }
+    public function hangUp(): PhoneState {
+        return new PhoneStateIdle();
+    }
+    public function dial(): PhoneState {
+        return new PhoneStateCalling();
     }
 }
 
-class DefaultText implements WritingState
-{
-    public function write(string $words)
-    {
-        echo $words;
+class PhoneStateCalling implements PhoneState {
+    public function pickUp(): PhoneState {
+        throw new Exception("already picked up");
+    }
+    public function hangUp(): PhoneState {
+        return new PhoneStateIdle();
+    }
+    public function dial(): PhoneState {
+        throw new Exception("already dialing");
     }
 }
 ```
-Then we have our editor
+
+Then we have our Phone class that changes the state on different behavior calls
+
 ```php
-class TextEditor
-{
-    protected $state;
+class Phone {
+    private $state;
 
-    public function __construct(WritingState $state)
-    {
-        $this->state = $state;
+    public function __construct() {
+        $this->state = new PhoneStateIdle();
     }
-
-    public function setState(WritingState $state)
-    {
-        $this->state = $state;
+    public function pickUp() {
+        $this->state = $this->state->pickUp();
     }
-
-    public function type(string $words)
-    {
-        $this->state->write($words);
+    public function hangUp() {
+        $this->state = $this->state->hangUp();
+    }
+    public function dial() {
+        $this->state = $this->state->dial();
     }
 }
 ```
-And then it can be used as
+
+And then it can be used as follows and it will call the relevant state methods:
+
 ```php
-$editor = new TextEditor(new DefaultText());
+$phone = new Phone();
 
-$editor->type('First line');
-
-$editor->setState(new UpperCase());
-
-$editor->type('Second line');
-$editor->type('Third line');
-
-$editor->setState(new LowerCase());
-
-$editor->type('Fourth line');
-$editor->type('Fifth line');
-
-// Output:
-// First line
-// SECOND LINE
-// THIRD LINE
-// fourth line
-// fifth line
+$phone->pickUp();
+$phone->dial();
 ```
 
 📒 Template Method
